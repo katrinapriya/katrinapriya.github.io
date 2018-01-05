@@ -65,11 +65,19 @@ div.navbar-default > div.container
 }
 #title2 {
 	text-align: left;
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bold;
   	font-size: 60px;
   	color:  #48CCCD ;
 }
+#cent {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+  	font-size: 60px;
+  	color:  #48CCCD ;
+}
+
 
 #subtitle {
 	text-align: left;
