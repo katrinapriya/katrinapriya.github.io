@@ -66,7 +66,7 @@ div.navbar-default > div.container
 #title2 {
 	text-align: left;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
+
   	font-size: 60px;
   	color:  #48CCCD ;
 	text-transform: uppercase;
@@ -74,7 +74,7 @@ div.navbar-default > div.container
 #cent {
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
+
   	font-size: 40px;
   	color:  #48CCCD ;
 	text-transform: uppercase;
