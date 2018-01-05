@@ -48,7 +48,7 @@ ul.nav a:visited {
 }
 
 ul.nav a:hover {
-    color: #f18c79 !important;
+    color: #488AC7!important;
     background-color: transparent;
     text-decoration:none;
 }
@@ -61,14 +61,14 @@ div.navbar-default > div.container
 	text-align: center;
 	font-family: 'Brush Script MT', cursive;
   	font-size: 70px;
-  	color:  #f18c79 ;
+  	color:  #488AC7 ;
 }
 #title2 {
 	text-align: left;
 	font-family: 'Gill Sans', sans-serif;
 	font-weight: bold;
   	font-size: 60px;
-  	color:  #f18c79 ;
+  	color:  #488AC7 ;
 }
 
 #subtitle {
@@ -94,7 +94,7 @@ div.navbar-default > div.container
 }
 
 .fa:hover {
-	color: #f18c79;
+	color: #488AC7;
 }
 
 .icons {
@@ -125,13 +125,13 @@ div.navbar-default > div.container
 }
 
 a {
-	color:#f18c79;
+	color:#488AC7;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #f18c79 !important;
+    color: #488AC7 !important;
     background-color: transparent;
     text-decoration:none;
 }
@@ -142,7 +142,7 @@ a:hover {
 
 /* MODAL */
 .modal-title {
-  color: #f18c79 ;
+  color: #488AC7 ;
   font-size: 30px !important;
 }
 
@@ -262,7 +262,7 @@ a:hover {
 
 /* MODAL */
 .modal-title {
-  color: #f18c79 ;
+  color: #488AC7 ;
   font-size: 30px;
 }
 
@@ -272,14 +272,14 @@ a:hover {
 }
 
 .modaltitle {
-  color: #f18c79 !important;
+  color: #488AC7 !important;
 }
 
 
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #f18c79 !important;
-    border: #f18c79 !important;
+    background-color: #488AC7 !important;
+    border: #488AC7 !important;
   	color: white\ !important;
   	border-radius: 25%;
 }
