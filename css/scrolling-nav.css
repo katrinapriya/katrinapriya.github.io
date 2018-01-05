@@ -92,9 +92,9 @@ div.navbar-default > div.container
 #footer {
 	text-align: center;
     font-family: 'Gill Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
-    color:  #48CCCD ;
+    color:  #C0C0C0 ;
 }
 
 
@@ -179,15 +179,7 @@ a:hover {
 	font-size: 20px;
 }
 
-#modal61a {
-	width: 50%;
-	height: 50%;
-	padding: 10px;
-}
 
-#modalbearmaps {
-	padding: 10px;
-}
 
 
 
