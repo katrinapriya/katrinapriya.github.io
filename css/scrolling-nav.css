@@ -61,14 +61,14 @@ div.navbar-default > div.container
 	text-align: center;
 	font-family: 'Brush Script MT', cursive;
   	font-size: 70px;
-  	color:  #488AC7 ;
+  	color:  #ECC5C0 ;
 }
 #title2 {
 	text-align: left;
 	font-family: 'Gill Sans', sans-serif;
 	font-weight: bold;
   	font-size: 60px;
-  	color:  #488AC7 ;
+  	color:  #E799A3 ;
 }
 
 #subtitle {
@@ -262,7 +262,7 @@ a:hover {
 
 /* MODAL */
 .modal-title {
-  color: #488AC7 ;
+  color: #99E8DE ;
   font-size: 30px;
 }
 
@@ -272,14 +272,14 @@ a:hover {
 }
 
 .modaltitle {
-  color: #488AC7 !important;
+  color: #99E8DE !important;
 }
 
 
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #488AC7 !important;
-    border: #488AC7 !important;
+    background-color: #99E8DE !important;
+    border: #99E8DE!important;
   	color: white\ !important;
   	border-radius: 25%;
 }
