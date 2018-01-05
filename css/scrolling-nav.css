@@ -19,7 +19,7 @@ section {
 }
 
 .navbar {
-    background-color: white;
+    background-color: #ECC5C0;
     border: none !important;
     font-family: 'Gill Sans', sans-serif;
     font-size: 20px;
@@ -54,7 +54,7 @@ ul.nav a:hover {
 }
 
 div.navbar-default > div.container 
-{background-color: white;}
+{background-color: #ECC5C0;}
 
 /* INDEX PAGE */
 #title {
