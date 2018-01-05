@@ -4,7 +4,7 @@ body {
   	font-family: 'Gill Sans', sans-serif;
   	font-size: 20px;
   	font-weight: lighter;
-  	color:  #ECC5C0;
+  	color:  #000000;
   	margin-bottom: 80px;
 }
 
@@ -19,7 +19,7 @@ section {
 }
 
 .navbar {
-    background-color: #ECC5C0;
+    background-color: white;
     border: none !important;
     font-family: 'Gill Sans', sans-serif;
     font-size: 20px;
@@ -54,7 +54,7 @@ ul.nav a:hover {
 }
 
 div.navbar-default > div.container 
-{background-color: #ECC5C0;}
+{background-color: white;}
 
 /* INDEX PAGE */
 #title {
