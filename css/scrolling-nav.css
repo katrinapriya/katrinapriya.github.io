@@ -20,7 +20,7 @@ section {
 
 .navbar {
     background-color: #C0C0C0;
-    border: #48CCCD !important;
+    border: none !important;
     font-family: 'Gill Sans', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -65,16 +65,14 @@ div.navbar-default > div.container
 }
 #title2 {
 	text-align: left;
-	font-family: 'Open Sans Condensed', sans-serif;
-
+	font-family: 'Gill Sans', sans-serif;
   	font-size: 60px;
   	color:  #48CCCD ;
 	text-transform: uppercase;
 }
 #cent {
 	text-align: center;
-	font-family: 'Open Sans Condensed', sans-serif;
-
+	font-family: 'Gill Sans', sans-serif;
   	font-size: 40px;
   	color:  #48CCCD ;
 	text-transform: uppercase;
