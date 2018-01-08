@@ -1,221 +1,126 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+<style>
+* {
+    box-sizing: border-box;
+}
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
 
-    <title>Katrina Priya</title>
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
 
-    <!-- font awesome for the icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+.row {
+    margin: 8px -16px;
+}
 
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
 </head>
+<body>
 
-<body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">CS PROJECTS</a>
-                </li>
-            
-                <li class="nav-item">
-                    <a class="nav-link" href="art.html">ART</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="dance.html">DANCE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="travel.html">TRAVEL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="KatrinaPriyaResume.pdf">RESUME</a>
-                </li>    
-                
-            </ul>
-        </div>
-    </nav>
-
-
-      <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/popper/popper.min.js"></script>
-	
 <!-- MAIN (Center website) -->
 <div class="main">
 
-<h1 id = "title2">Art</h1> 
-<br>   
-<p id = "subtitle"> 
-Here's some of my artwork! I've been drawing since 8th grade and have started painting recently. 
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
   <div class="column">
     <div class="content">
-      <img src=""img/jungkook.JPG"" alt="jung" style="width:100%">
+      <img src="/img/jungkook.JPG" alt="Mountains" style="width:100%">
       <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src=""img/david.JPG"" alt="davi" style="width:100%">
+    <img src="/img/david.JPG" alt="Lights" style="width:100%">
       <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src=""img/bird.JPG"" alt="bird" style="width:100%">
+    <img src="/img/bird.JPG" alt="Nature" style="width:100%">
       <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src=""img/mich.JPG"" alt="mich" style="width:100%">
+    <img src="/img/mich.JPG" alt="Mountains" style="width:100%">
       <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
     </div>
   </div>
+<!-- END GRID -->
 </div>
 
 <div class="content">
-  <img src=""img/bryan.JPG"" alt="bryan" style="width:100%">
+  <img src="/img/bryan.JPG" alt="Bear" style="width:100%">
   <h3>Some Other Work</h3>
-  <p>Lorem ipsum..</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
 </div>
 
-
+<!-- END MAIN -->
 </div>
-	
-<!-- END MAIN
-                  <div class="col-md-4 col-lg-12 col-sm-12 col-xs-12"> </div>
-			
-		 <div class = "col-lg-14 mx-auto">
-                    <img src = "img/jungkook.JPG" id = "me">  
-                </div>
-			
-              	Jeon Jungkook from K-Pop group BTS 
-		<br>
-		July 2017
-		<br>
-		<br>
-		<br>
-		 <div class = "col-lg-14 mx-auto">
-                    <img src = "img/bryan.JPG" id = "me">  
-                </div>
-		Bryan Cranston from TV show Breaking Bad (with his autograph!)
-		<br>
-		December 2016
-		<br>
-		<br>
-		<br>
-			
-		<div class = "col-lg-14 mx-auto">
-                    <img src = "img/rose.JPG" id = "me">  
-                </div>
-		Rose drawing
-		<br>
-		December 2013
-		<br>
-		<br>
-		<br>	
-			
-		<div class = "col-lg-14 mx-auto">
-                    <img src = "img/zebra.JPG" id = "me">  
-                </div>
-		A zebra, made only with dots of the pencil
-		
-		<br>
-		January 2014
-		<br>
-		<br>	
-		<br>	
-		<div class = "col-lg-14 mx-auto">
-                    <img src = "img/david.JPG" id = "me">  
-                </div>
-		David Tennant from TV show Doctor Who
-		
-		<br>
-		June 2013
-			
-	
-		<br>
-		<br>
-		<br>	
-		<div class = "col-lg-14 mx-auto">
-                    <img src = "img/lana.JPG" id = "me">  
-                </div>
-		Lana del Rey
-		<br>
-		August 2016
-			
-		<br>
-		<br>
-		<br>	
-		<div class = "col-lg-14 mx-auto">
-                    <img src = "img/elsa.JPG" id = "me">  
-                </div>
-		Elsa from movie Frozen
-		<br>
-		November 2015
-		<br>
-		<br>
-		<br>	
-		<div class = "col-lg-14 mx-auto">
-                    <img src = "img/aria.JPG" id = "me">  
-                </div>
-		Lucy Hale from TV show Pretty Little Liars
-		<br>
-		June 2015
-		<br>
-		<br>
-		<br>
-		<br>
-               </div>
-	 </div>
-      
-    </section>
--->
-		 
-        
-    <div id = "footer">
-	    <p id = "footer">
-	Created by Katrina Priya, 2018
-	</div> 
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
 
 </body>
-
 </html>
-
 
