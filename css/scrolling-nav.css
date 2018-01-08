@@ -3,6 +3,7 @@ body {
   	text-align: center;
   	font-family: 'Gill Sans', sans-serif;
   	font-size: 20px;
+	background-color: gray;
   	font-weight: lighter;
   	color:  #000000;
   	margin-bottom: 80px;
@@ -70,13 +71,6 @@ div.navbar-default > div.container
   	color:  #48CCCD ;
 	text-transform: uppercase;
 }
-#cent {
-	text-align: center;
-	font-family: 'Gill Sans', sans-serif;
-  	font-size: 40px;
-  	color:  #48CCCD ;
-	text-transform: uppercase;
-}
 
 
 #subtitle {
@@ -94,8 +88,6 @@ div.navbar-default > div.container
     font-weight: lighter;
     color:  #C0C0C0 ;
 }
-
-
 
 .fa {
     margin-right: 20px;
@@ -119,7 +111,7 @@ div.navbar-default > div.container
 
 
 
-/* ABOUT PAGE */
+/* ABOUT */
 
 #aboutheader {
 	font-size: 30px;
@@ -176,9 +168,6 @@ a:hover {
 	color : black !important;
 	font-size: 20px;
 }
-
-
-
 
 
 /* THUMBNAIL GALLERY -- used template on bootply */
@@ -291,7 +280,3 @@ a:hover {
   	color: white\ !important;
   	border-radius: 25%;
 }
-
-
-
-
