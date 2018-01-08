@@ -20,18 +20,6 @@
     box-sizing: border-box;
 }
 
-
-/* Center website */
-.main {
-    max-width: 1000px;
-    margin: auto;
-}
-
-h1 {
-    font-size: 50px;
-    word-break: break-all;
-}
-
 .row {
     margin: 8px -16px;
 }
@@ -42,7 +30,7 @@ h1 {
     padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create 3 equal columns that floats next to each other */
 .column {
     float: left;
     width: 33%;
@@ -61,7 +49,7 @@ h1 {
     padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a two column-layout instead of 3 columns */
 @media (max-width: 900px) {
     .column {
         width: 50%;
@@ -111,15 +99,24 @@ h1 {
       <!-- Bootstrap core JavaScript -->
       <script src="vendor/jquery/jquery.min.js"></script>
       <script src="vendor/popper/popper.min.js"></script>
-<!-- MAIN (Center website) -->
-<div class="main">
+    
+       <section id="art">
+      		<div class="col-lg-6 mx-auto">
+                    <h1 id = "title2">Art <h1> 
+                    <br>   
+                    <p id = "subtitle"> 
+                    Here's some of my artwork! I've been drawing for six years and have recently started painting.
+                    <br>
+                    <br>
+	    </div>
+    </section>
 
-<h1>MYLOGO.COM</h1>
-<hr>
-
-<h2>PORTFOLIO</h2>
-<p>Resize the browser window to see the responsive effect.</p>
-
+        
+    <div id = "footer">
+	        <p id = "footer">
+	Created by Katrina Priya, 2018
+	</div> 
+    
 <!-- Portfolio Gallery Grid -->
 <div class="row">
   <div class="column">
