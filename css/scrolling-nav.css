@@ -134,13 +134,13 @@ div.navbar-default > div.container
 }
 
 a {
-	color: black;
+	color: gray;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: white !important;
+    color: black !important;
     background-color: transparent;
     text-decoration:none;
 }
