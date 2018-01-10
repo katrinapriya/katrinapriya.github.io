@@ -58,7 +58,6 @@ ul.nav a:hover {
 div.navbar-default > div.container 
 {background-color: #C0C0C0;}
 
-/* INDEX PAGE */
 #title {
 	text-align: center;
 	font-family: 'Brush Script MT', cursive;
@@ -111,9 +110,6 @@ div.navbar-default > div.container
 }
 
 
-
-/* ABOUT */
-
 #aboutheader {
 	font-size: 30px;
 }
@@ -147,12 +143,6 @@ a:hover {
 
 .container {
   position: relative;
-}
-
-/* MODAL */
-.modal-title {
-  color: rgba(111, 127, 201, 0.48);
-  font-size: 30px !important;
 }
 
 .modaltext {
@@ -267,10 +257,6 @@ a:hover {
 .modaltext {
     color: black !important;
     font-size: 18px;
-}
-
-.modaltitle {
-  color: rgba(111, 127, 201, 0.48)!important;
 }
 
 
