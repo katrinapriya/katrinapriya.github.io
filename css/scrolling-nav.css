@@ -99,7 +99,7 @@ div.navbar-default > div.container
     width: 50px !important; 
     text-decoration: none;
     border-radius: 50%;
-    color: black;
+    color: gray;
 }
 
 .fa:hover {
