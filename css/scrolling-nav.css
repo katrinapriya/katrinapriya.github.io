@@ -140,7 +140,7 @@ a {
 }
 
 a:hover {
-    color: rgba(111, 127, 201, 0.48) !important;
+    color: white !important;
     background-color: transparent;
     text-decoration:none;
 }
