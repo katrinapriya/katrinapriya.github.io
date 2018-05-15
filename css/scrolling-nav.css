@@ -1,9 +1,9 @@
 body {
-	padding-top: 54px;
+	padding-top: 30px;
   	text-align: center;
   	font-family: 'Gill Sans', sans-serif;
   	font-size: 20px;
-	background-color: rgba(111, 127, 201, 0.48);
+	background-color: rgb(255, 255, 255);
   	font-weight: lighter;
   	color:  #000000;
   	margin-bottom: 80px;
@@ -16,14 +16,14 @@ body {
 }
 
 section {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .navbar {
     background-color: #C0C0C0;
     border: none !important;
     font-family: 'Gill Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -40,6 +40,7 @@ ul.nav a:link {
     color: black !important;
     background-color: transparent;
     text-decoration: none;
+    font-weight: normal;
 }
 
 ul.nav a:visited {
@@ -49,7 +50,7 @@ ul.nav a:visited {
 }
 
 ul.nav a:hover {
-    color: rgba(111, 127, 201, 0.48)!important;
+    color: rgb(25, 29, 95)!important;
     background-color: transparent;
     text-decoration:none;
 }
@@ -59,16 +60,18 @@ div.navbar-default > div.container
 
 #title {
 	text-align: center;
-	font-family: 'Brush Script MT', cursive;
-  	font-size: 70px;
-  	color:  white ;
+ 
+	font-family: 'Gill Sans', cursive;
+  	font-size: 80px;
+  	color: rgb(25, 29, 95);
 }
+
 #title2 {
 	text-align: center;
 	font-family: 'Gill Sans', sans-serif;
   	font-size: 60px;
-  	color:  white ;
-	text-transform: uppercase;
+  	color: rgb(25, 29, 95);
+	text-transform: lowercase;
 }
 
 
@@ -97,11 +100,13 @@ div.navbar-default > div.container
     width: 50px !important; 
     text-decoration: none;
     border-radius: 50%;
-    color: gray;
+    color: black;
+
 }
 
 .fa:hover {
-	color: rgba(111, 127, 201, 0.48);
+	color: black;
+  text-decoration:none;
 }
 
 .icons {
@@ -129,15 +134,16 @@ div.navbar-default > div.container
 }
 
 a {
-	color: gray;
+	color: rgb(25, 29, 95);
     background-color: transparent;
     text-decoration: none;
 }
-
-a:hover {
-    color: black !important;
-    background-color: transparent;
-    text-decoration:none;
+#more {
+  text-align: left;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color:  rgb(25, 29, 95);
 }
 
 .container {
@@ -249,7 +255,7 @@ a:hover {
 
 /* MODAL */
 .modal-title {
-  color: rgba(111, 127, 201, 0.48);
+  color: rgb(25, 29, 95);
   font-size: 30px;
 }
 
@@ -261,8 +267,8 @@ a:hover {
 
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: rgba(111, 127, 201, 0.48)!important;
-    border: rgba(111, 127, 201, 0.48)!important;
+    background-color: rgb(25, 29, 95) !important;
+    border: rgb(25, 29, 95)!important;
   	color: white\ !important;
   	border-radius: 25%;
 }
