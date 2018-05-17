@@ -83,12 +83,18 @@ div.navbar-default > div.container
     color:  black ;
 }
 
-#footer {
+.footer {
 	text-align: center;
     font-family: 'Gill Sans', sans-serif;
     font-size: 16px;
     font-weight: lighter;
     color: black ;
+    
+  position:relative;
+    bottom:0;
+
+    
+    
 }
 
 .fa {
