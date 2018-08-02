@@ -57,6 +57,9 @@
     float: left;
     width: 33%;
 }
+.column2 {
+	float: center;
+	width: 75%;
 /* Clear floats after rows */ 
 .row:after {
     content: "";
@@ -85,10 +88,20 @@
         width: 50%;
     }
 }
+@media (max-width: 900px) {
+    .column1 {
+        width: 50%;
+    }
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column {
         width: 100%;
+    }
+}
+	@media (max-width: 900px) {
+    .column1 {
+        width: 50%;
     }
 }
 </style>
