@@ -2,6 +2,7 @@ body {
 	padding-top: 30px;
   	text-align: center;
   	font-family: 'Gill Sans', sans-serif;
+  	src:url(../../GillSansStd.otf);
   	font-size: 20px;
 	background-color: rgb(255, 255, 255);
   	font-weight: lighter;
@@ -23,6 +24,7 @@ section {
     background-color: #C0C0C0;
     border: none !important;
     font-family: 'Gill Sans', sans-serif;
+    src:url(../../GillSansStd.otf);
     font-size: 25px;
     text-align: center;
 }
@@ -62,6 +64,7 @@ div.navbar-default > div.container
 	text-align: center;
  
 	font-family: 'Gill Sans', cursive;
+	src:url(../../GillSansStd.otf);
   	font-size: 80px;
   	color: rgb(25, 29, 95);
 }
@@ -69,6 +72,7 @@ div.navbar-default > div.container
 #title2 {
 	text-align: center;
 	font-family: 'Gill Sans', sans-serif;
+	src:url(../../GillSansStd.otf);
   	font-size: 60px;
   	color: rgb(25, 29, 95);
 	text-transform: lowercase;
@@ -78,6 +82,7 @@ div.navbar-default > div.container
 #subtitle {
 	text-align: left;
     font-family: 'Gill Sans', sans-serif;
+    src:url(../../GillSansStd.otf);
     font-size: 18px;
     font-weight: lighter;
     color:  black ;
@@ -86,6 +91,8 @@ div.navbar-default > div.container
 .footer {
 	text-align: center;
     font-family: 'Gill Sans', sans-serif;
+    src:url(../../GillSansStd.otf);
+
     font-size: 16px;
     font-weight: lighter;
     color: black ;
@@ -147,6 +154,7 @@ a {
 #more {
   text-align: left;
     font-family: 'Gill Sans', sans-serif;
+    src:url(../../GillSansStd.otf);
     font-size: 18px;
     font-weight: lighter;
     color:  rgb(25, 29, 95);
