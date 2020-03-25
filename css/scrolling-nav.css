@@ -75,13 +75,14 @@ div.navbar-default > div.container
     color: black;
 
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .1em solid transparent; /* The typewriter cursor */
-  white-space: normal; /* Keeps the content on a single line */
+  border-right: .1em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  overflow: auto;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .03em; /* Adjust as needed */
   animation: 
-    typing 2s steps(30, end),
-    blink-caret 2.2s;
+    typing 2.2s steps(30, end),
+    blink-caret 2.3s;
   }
 
 /* The typing effect */
