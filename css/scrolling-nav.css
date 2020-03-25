@@ -83,15 +83,6 @@ div.navbar-default > div.container
     typing 2.2s steps(30, end),
     blink-caret 2.3s;
   }
-  .title:nth-child(2)
-{
-    white-space:nowrap;
-    overflow:hidden;    
-    opacity:0;
-    animation: 
-      typing 2.2s steps(30, end),
-      blink-caret 2.3s;
-}
 
 /* The typing effect */
 @keyframes typing {
