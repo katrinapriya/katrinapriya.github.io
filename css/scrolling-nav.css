@@ -9,6 +9,11 @@ body {
   	color:  #000000;
   	margin-bottom: 0px;
 }
+
+.modal-header .close {
+  font-size: 40px; //bigger
+}
+
 body.home{background-color:#F6D4D2}
 
 @media (min-width: 992px) {
@@ -17,7 +22,7 @@ body.home{background-color:#F6D4D2}
     }
 }
 hr {
-  background-color: #f1dede; height: 15px;
+  background-color: #F6D4D2; height: 10px;
 
 };
 }
@@ -192,7 +197,7 @@ a {
     font-family: futura-pt, sans-serif;
     font-size: 18px;
     font-weight: lighter;
-    color:  #f1dede;
+    color:  white;
     font-weight: 300;
 }
 
@@ -241,8 +246,7 @@ a {
   height: 80%;
   left: 10%;
   top: 10%;
-  border-bottom: 1px solid #FFF;
-  border-top: 1px solid #FFF;
+  
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0,1);
@@ -271,22 +275,7 @@ a {
   -webkit-filter: brightness(0.6);
 }
 
-.hovereffect h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-family: futura-pt, sans-serif;
-  font-size: 17px;
-  background-color: transparent;
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,-100%,0);
-  transform: translate3d(0,-100%,0);
-}
+
 
 .hovereffect a, hovereffect p {
   color: #FFF;
@@ -320,13 +309,18 @@ a {
     font-size: 18px;
 }
 
-
+#myImg:hover {opacity: 0.6;}
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: rgb(25, 29, 95) !important;
+    background-color: black; !important;
     border: rgb(25, 29, 95)!important;
   	color: white\ !important;
   	border-radius: 25%;
+    size: 50px;
+}
+.btn-xl {
+    padding: 40px 40px;
+    border-radius: 10px;
 }
 
 
