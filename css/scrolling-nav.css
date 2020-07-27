@@ -13,8 +13,8 @@ body {
 .modal-header .close {
   font-size: 40px; //bigger
 }
+body.home{background-image: linear-gradient(#F6D4D2, white);}
 
-body.home{background-color:#F6D4D2}
 
 @media (min-width: 992px) {
     header {
@@ -63,7 +63,7 @@ ul.nav a:visited {
 }
 
 ul.nav a:hover {
-    color: rgb(25, 29, 95)!important;
+    color: black !important; /*blue*/
     background-color: transparent;
     text-decoration:none;
 }
@@ -114,10 +114,27 @@ font-family: futura-pt, sans-serif;
 font-family: futura-pt, sans-serif;
   	font-size: 60px;
     
-  	color: rgb(25, 29, 95);
+  	color: black; /*blue*/
 	text-transform: lowercase;
 }
 
+#homep{
+  text-align: left;
+   font-family: futura-pt, sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    font-style: normal
+    color:  black ;
+}
+
+#subtitle2 {
+  text-align: left;
+   font-family: futura-pt, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: normal
+    color:  black ;
+}
 
 #subtitle {
 	text-align: left;
@@ -298,7 +315,7 @@ a {
 
 /* MODAL */
 .modal-title {
-  color: rgb(25, 29, 95);
+  color: black; /*blue*/
   font-family: futura-pt, sans-serif;
   font-size: 30px;
 }
@@ -313,7 +330,7 @@ a {
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: black; !important;
-    border: rgb(25, 29, 95)!important;
+    border: black!important;/*blue*/
   	color: white\ !important;
   	border-radius: 25%;
     size: 50px;
