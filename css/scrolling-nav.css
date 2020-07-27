@@ -13,7 +13,7 @@ body {
 .modal-header .close {
   font-size: 40px; //bigger
 }
-body.home{background-image: linear-gradient(#F6D4D2, white);}
+body.home{background-image: linear-gradient(#F6D4D2, white, white);}
 
 
 @media (min-width: 992px) {
