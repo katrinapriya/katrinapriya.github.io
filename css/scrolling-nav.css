@@ -1,6 +1,10 @@
 body {
 	padding-top: 30px;
   	text-align: center;
+    @font-face {
+    font-family: Avenir;
+    src: url("avenir-font/Avenir-Book.ttf") format("opentype");
+}
   	font-family: 'Avenir';
     font-weight: 300;
   	font-size: 20px;
@@ -46,6 +50,7 @@ section {
     background-color: #C0C0C0;
     border: none !important;
    font-family: 'Avenir';   
+     font-weight: normal;
     font-size: 23px;
     text-align: center;
 }
@@ -63,7 +68,8 @@ ul.nav a:link {
     color: black !important;
     background-color: transparent;
     text-decoration: none;
-    font-family: 'Avenir', sans-serif;
+    font-weight: normal;
+    font-family: Avenir, sans-serif;
 }
 
 ul.nav a:visited {
@@ -205,7 +211,7 @@ font-family: 'Avenir';
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Avenir', sans-serif;
+    font-family: Avenir, sans-serif;
     font-size: 50px !important;
     width: 50px !important; 
     text-decoration: none;
