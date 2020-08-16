@@ -1,10 +1,6 @@
 body {
 	padding-top: 30px;
   	text-align: center;
-    @font-face {
-    font-family: Avenir;
-    src: url("avenir-font/Avenir-Book.ttf") format("opentype");
-}
   	font-family: 'Avenir';
     font-weight: 300;
   	font-size: 20px;
