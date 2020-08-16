@@ -1,7 +1,11 @@
 body {
 	padding-top: 30px;
   	text-align: center;
-  	font-family: futura-pt, sans-serif;
+    @font-face {
+    font-family: Avenir;
+    src: url("avenir-font/Avenir-Book.ttf") format("opentype");
+}
+  	font-family: 'Avenir';
     font-weight: 300;
   	font-size: 20px;
 	background-color: white;
@@ -9,11 +13,20 @@ body {
   	color:  #000000;
   	margin-bottom: 0px;
 }
-
+p.e {
+   padding-left: 7%;
+   padding-right: 7%;
+}
 .modal-header .close {
-  font-size: 40px; //bigger
+  font-size: 40px; 
 }
 body.home{background-image: linear-gradient(#F6D4D2, white, white);}
+
+p.a {
+   padding-left: 11%;
+   padding-right: 7%;
+ 
+}
 
 
 @media (min-width: 992px) {
@@ -22,7 +35,7 @@ body.home{background-image: linear-gradient(#F6D4D2, white, white);}
     }
 }
 hr {
-  background-color: #F6D4D2; height: 10px;
+  background-color: lightgray; height: .5px;
 
 };
 }
@@ -30,12 +43,24 @@ section {
     padding: 90px 0;
 }
 
+a:visited {
+  color: blue;
+  background-color: transparent;
+  
+}
+a:hover {
+  color: green;
+  background-color: transparent;
+}
+
+}
+
 .navbar {
     background-color: #C0C0C0;
     border: none !important;
-   font-family: futura-pt, sans-serif;
-   
-    font-size: 25px;
+   font-family: 'Avenir';   
+     font-weight: normal;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -53,7 +78,7 @@ ul.nav a:link {
     background-color: transparent;
     text-decoration: none;
     font-weight: normal;
-    font-family: futura-pt, sans-serif;
+    font-family: Avenir, sans-serif;
 }
 
 ul.nav a:visited {
@@ -74,7 +99,7 @@ div.navbar-default > div.container
 #title {
   text-align: center;
  
-  font-family: futura-pt, sans-serif;
+  font-family: 'Avenir';
   
     font-size: 75px;
     color: black;
@@ -103,7 +128,8 @@ div.navbar-default > div.container
 #frontTitle
 {
   text-align: center;
-font-family: futura-pt, sans-serif;
+font-family: 'Avenir';
+  font-weight: 500;
     font-size: 60px;
     color: black;
 
@@ -111,43 +137,73 @@ font-family: futura-pt, sans-serif;
 }
 #title2 {
 	text-align: center;
-font-family: futura-pt, sans-serif;
+font-family: 'Avenir';
+  font-weight: 500;
   	font-size: 60px;
     
   	color: black; /*blue*/
 	text-transform: lowercase;
 }
+#designtitle{
+  text-align: left;
+font-family: 'Avenir';
+  font-weight: 600;
+    font-size: 24px;
+    
+    color: black; /*blue*/
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 #homep{
   text-align: left;
-   font-family: futura-pt, sans-serif;
-    font-weight: 200;
-    font-size: 28px;
+   font-family: 'Avenir';
+    font-weight: normal;
+    font-size: 24px;
     font-style: normal
     color:  black ;
 }
 
+
+
+
 #subtitle2 {
   text-align: left;
-   font-family: futura-pt, sans-serif;
+ font-family: 'Avenir';
     font-weight: 200;
     font-size: 20px;
     font-style: normal
-    color:  black ;
+    color:  blue ;
 }
 
 #subtitle {
 	text-align: left;
-   font-family: futura-pt, sans-serif;
-    font-weight: 200;
-    font-size: 18px;
+   font-family: 'Avenir';
+
+  font-weight: normal;
+    font-size: 16px;
     font-style: normal
     color:  black ;
 }
 
 .footer {
 	text-align: center;
-    font-family: futura-pt, sans-serif;
+    font-family: 'Avenir';
+
 
     font-size: 16px;
     font-weight: lighter;
@@ -165,7 +221,7 @@ font-family: futura-pt, sans-serif;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: futura-pt, sans-serif;
+    font-family: Avenir, sans-serif;
     font-size: 50px !important;
     width: 50px !important; 
     text-decoration: none;
@@ -185,7 +241,7 @@ font-family: futura-pt, sans-serif;
 
 
 #aboutheader {
-  font-family: futura-pt, sans-serif;
+  font-family: Avenir, sans-serif;
 	font-size: 30px;
 }
 
@@ -211,7 +267,7 @@ a {
 }
 #more {
   text-align: left;
-    font-family: futura-pt, sans-serif;
+    font-family: Avenir, sans-serif;
     font-size: 18px;
     font-weight: lighter;
     color:  white;
@@ -220,24 +276,25 @@ a {
 
 .container {
   position: relative;
+
 }
 
 .modaltext {
     color: black !important;
-    font-family: futura-pt, sans-serif;
-    font-size:18px;
+    font-family: Avenir, sans-serif;
+    font-size:16px;
     text-align: left;
 }
 
 #jobTitle {
-  font-family: futura-pt, sans-serif;
+  font-family: Avenir, sans-serif;
 	font-size: 25px;
 }
 
 #date {
 	color : black !important;
-  font-family: futura-pt, sans-serif;
-	font-size: 20px;
+  font-family: Avenir, sans-serif;
+	font-size: 18px;
 }
 
 
@@ -316,14 +373,15 @@ a {
 /* MODAL */
 .modal-title {
   color: black; /*blue*/
-  font-family: futura-pt, sans-serif;
+  font-family: Avenir, sans-serif;
   font-size: 30px;
+  text-align: left;
 }
 
 .modaltext {
     color: black !important;
-    font-family: futura-pt, sans-serif;
-    font-size: 18px;
+    font-family: Avenir, sans-serif;
+    font-size: 16px;
 }
 
 #myImg:hover {opacity: 0.6;}
