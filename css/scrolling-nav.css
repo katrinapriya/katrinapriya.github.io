@@ -10,8 +10,8 @@ body {
   	margin-bottom: 0px;
 }
 p.e {
-   padding-left: 7%;
-   padding-right: 7%;
+   padding-left: 9%;
+   padding-right: 9%;
 }
 .modal-header .close {
   font-size: 40px; 
@@ -20,7 +20,7 @@ body.home{background-image: linear-gradient(#F6D4D2, white, white);}
 
 p.a {
    padding-left: 11%;
-   padding-right: 7%;
+   padding-right: 9%;
  
 }
 
@@ -46,7 +46,6 @@ section {
     background-color: #C0C0C0;
     border: none !important;
    font-family: 'Avenir';   
-     font-weight: normal;
     font-size: 23px;
     text-align: center;
 }
@@ -64,7 +63,6 @@ ul.nav a:link {
     color: black !important;
     background-color: transparent;
     text-decoration: none;
-    font-weight: normal;
     font-family: Avenir, sans-serif;
 }
 
@@ -159,7 +157,6 @@ font-family: 'Avenir';
 #homep{
   text-align: left;
    font-family: 'Avenir';
-    font-weight: normal;
     font-size: 24px;
     font-style: normal
     color:  black ;
@@ -179,8 +176,6 @@ font-family: 'Avenir';
 #subtitle {
 	text-align: left;
    font-family: 'Avenir';
-
-  font-weight: normal;
     font-size: 16px;
     font-style: normal
     color:  black ;
