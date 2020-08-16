@@ -43,15 +43,6 @@ section {
     padding: 90px 0;
 }
 
-a:visited {
-  color: blue;
-  background-color: transparent;
-  
-}
-a:hover {
-  color: green;
-  background-color: transparent;
-}
 
 }
 
@@ -177,7 +168,6 @@ font-family: 'Avenir';
     font-style: normal
     color:  black ;
 }
-
 
 
 
