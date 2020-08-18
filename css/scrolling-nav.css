@@ -148,6 +148,8 @@ font-family: 'Avenir';
   display: table;
   clear: both;
 }
+
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -182,7 +184,22 @@ font-family: 'Avenir';
     font-style: normal
     color:  black ;
 }
+.blue {
+  color: #33658A;
+  font-weight: 500;
+}
+.green {
+  color: #66A182;
+  font-weight: 500;
+}
+.bol {
+  font-weight: 500;
 
+}
+.bol2 {
+  font-weight: 500;
+  
+}
 .footer {
 	text-align: center;
     font-family: 'Avenir';
@@ -357,7 +374,7 @@ a {
 .modal-title {
   color: black; /*blue*/
   font-family: Avenir, sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   text-align: left;
 }
 
