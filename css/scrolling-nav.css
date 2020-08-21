@@ -34,6 +34,9 @@ ul.a {
 
 
 
+
+
+
 @media (min-width: 992px) {
     header {
         padding: 156px 0 100px;
@@ -142,9 +145,9 @@ font-family: 'Avenir';
   text-align: left;
 font-family: 'Avenir';
   font-weight: 600;
-    font-size: 26px;
+    font-size: 30px;
     
-    color: black; /*blue*/
+    color: black /*blue*/
 }
 .column {
   float: left;
