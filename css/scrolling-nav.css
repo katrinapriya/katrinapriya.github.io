@@ -14,8 +14,12 @@ p.e {
    padding-right: 9%;
 }
 .modal-header .close {
-  font-size: 40px; 
+  font-size: 20px; 
+  align-content: left;
+  float: left;
+  display: inline-block;
 }
+
 body.home{background-image: linear-gradient(#F6D4D2, white, white);}
 
 p.a {
