@@ -1,7 +1,7 @@
 body {
 	padding-top: 30px;
   	text-align: center;
-  	font-family: 'Avenir';
+  	font-family: 'Avenir', "Nunito Sans";
     font-weight: 300;
   	font-size: 20px;
 	background-color: white;
@@ -57,7 +57,7 @@ section {
 .navbar {
     background-color: #C0C0C0;
     border: none !important;
-   font-family: 'Avenir';   
+   font-family: 'Avenir', "Nunito Sans";  
     font-size: 23px;
     text-align: center;
 }
@@ -75,7 +75,7 @@ ul.nav a:link {
     color: black !important;
     background-color: transparent;
     text-decoration: none;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', "Nunito Sans", sans-serif;
 }
 
 ul.nav a:visited {
@@ -96,7 +96,7 @@ div.navbar-default > div.container
 #title {
   text-align: center;
  
-  font-family: 'Avenir';
+  font-family: 'Avenir', "Nunito Sans";
   
     font-size: 75px;
     color: black;
@@ -125,7 +125,7 @@ div.navbar-default > div.container
 #frontTitle
 {
   text-align: center;
-font-family: 'Avenir';
+font-family: 'Avenir', "Nunito Sans";
   font-weight: 500;
     font-size: 60px;
     color: black;
@@ -134,7 +134,7 @@ font-family: 'Avenir';
 }
 #title2 {
 	text-align: center;
-font-family: 'Avenir';
+font-family: 'Avenir', "Nunito Sans";
   font-weight: 500;
   	font-size: 60px;
     
@@ -143,7 +143,7 @@ font-family: 'Avenir';
 }
 #designtitle{
   text-align: left;
-font-family: 'Avenir';
+font-family: 'Avenir', "Nunito Sans";
   font-weight: 600;
     font-size: 30px;
     
@@ -170,7 +170,7 @@ font-family: 'Avenir';
 
 #homep{
   text-align: left;
-   font-family: 'Avenir';
+   font-family: 'Avenir', "Nunito Sans";
     font-size: 24px;
     font-style: normal
     color:  black ;
@@ -181,7 +181,7 @@ font-family: 'Avenir';
 
 #subtitle2 {
   text-align: left;
- font-family: 'Avenir';
+ font-family: 'Avenir', "Nunito Sans";
     font-weight: 200;
     font-size: 20px;
     font-style: normal
@@ -191,7 +191,7 @@ font-family: 'Avenir';
 #subtitle {
 	text-align: left;
   font-weight: normal;
-   font-family: 'Avenir';
+   font-family: 'Avenir', "Nunito Sans";
     font-size: 16px;
     font-style: normal
     color:  black ;
@@ -214,7 +214,7 @@ font-family: 'Avenir';
 }
 .footer {
 	text-align: center;
-    font-family: 'Avenir';
+  font-family: 'Avenir', "Nunito Sans";
 
 
     font-size: 16px;
@@ -233,7 +233,7 @@ font-family: 'Avenir';
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', "Nunito Sans", sans-serif;
     font-size: 50px !important;
     width: 50px !important; 
     text-decoration: none;
@@ -253,7 +253,7 @@ font-family: 'Avenir';
 
 
 #aboutheader {
-  font-family: Avenir, sans-serif;
+  font-family: 'Avenir', "Nunito Sans", sans-serif;
 	font-size: 30px;
 }
 
@@ -279,7 +279,7 @@ a {
 }
 #more {
   text-align: left;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', "Nunito Sans", sans-serif;
     font-size: 18px;
     font-weight: lighter;
     color:  white;
@@ -293,19 +293,19 @@ a {
 
 .modaltext {
     color: black !important;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', "Nunito Sans", sans-serif;
     font-size:16px;
     text-align: left;
 }
 
 #jobTitle {
-  font-family: Avenir, sans-serif;
+  font-family: 'Avenir', "Nunito Sans", sans-serif;
 	font-size: 25px;
 }
 
 #date {
 	color : black !important;
-  font-family: Avenir, sans-serif;
+  font-family: 'Avenir', "Nunito Sans", sans-serif;
 	font-size: 18px;
 }
 
@@ -385,14 +385,14 @@ a {
 /* MODAL */
 .modal-title {
   color: black; /*blue*/
-  font-family: Avenir, sans-serif;
+  font-family: 'Avenir', "Nunito Sans", sans-serif;
   font-size: 28px;
   text-align: left;
 }
 
 .modaltext {
     color: black !important;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', "Nunito Sans", sans-serif;
     font-size: 16px;
 }
 
