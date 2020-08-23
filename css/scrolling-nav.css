@@ -13,11 +13,8 @@ p.e {
    padding-left: 9%;
    padding-right: 9%;
 }
-.modal-header .close {
-  font-size: 20px; 
-  align-content: left;
-  float: left;
-  display: inline-block;
+.close {
+  font-size: 29px; 
 }
 
 body.home{background-image: linear-gradient(#F6D4D2, white, white);}
