@@ -198,7 +198,7 @@ font-family: 'Avenir', "Nunito Sans";
     color:  black ;
 }
 .blue {
-  color: #33658A;
+  color: #4B8F8C;
   font-weight: 500;
 }
 .green {
@@ -291,7 +291,9 @@ a {
   position: relative;
 
 }
-
+a:hover {
+  color: #2678E3;
+}
 .modaltext {
     color: black !important;
     font-family: 'Avenir', "Nunito Sans", sans-serif;
