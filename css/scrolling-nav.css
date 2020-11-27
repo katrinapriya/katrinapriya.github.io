@@ -9,9 +9,20 @@ body {
   	color:  #000000;
   	margin-bottom: 0px;
 }
+
 p.e {
-   padding-left: 9%;
-   padding-right: 9%;
+   padding-left: 15%;
+   padding-right: 13%;
+   
+}
+p.b {
+   font-size: 17px;
+   
+}
+p.z {
+   padding-left: 12%;
+   padding-right: 11%;
+
 }
 .close {
   font-size: 29px; 
@@ -26,14 +37,59 @@ p.a {
 }
 ul.a {
   text-align: left;
-  padding-left: 11%;
-   padding-right: 9%;
-   font-size: 17px;
+  padding-left: 18%;
+   padding-right: 12%;
+   font-size: 18px;
    font-weight: normal
 
 }
 
 
+.nums{
+  
+  counter-reset: my-awesome-counter;
+  
+  clear: both;
+  list-style: none;
+  text-align: left;
+  padding-left: 20%;
+   padding-right: 15%;
+   text-align: left;
+
+   font-size: 18px;
+   list-style-position: outside;
+   font-weight: normal
+
+}
+.nums li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+
+}
+.nums li::before {
+ content: counter(my-awesome-counter);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 35px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+
+  background: black;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+
+li span {
+  position: relative;
+  left: 30px;
+}
 
 
 
@@ -193,10 +249,19 @@ font-family: 'Avenir', "Nunito Sans";
 	text-align: left;
   font-weight: normal;
    font-family: 'Avenir', "Nunito Sans";
+    font-size: 18px;
+    font-style: normal
+    color:  black ;
+}
+#about {
+  text-align: left;
+  font-weight: normal;
+   font-family: 'Avenir', "Nunito Sans";
     font-size: 17px;
     font-style: normal
     color:  black ;
 }
+
 .blue {
   color: #4B8F8C;
   font-weight: 500;
