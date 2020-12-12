@@ -484,7 +484,8 @@ a:hover, a:active, a:focus {
 }
 
 .footerlink a, a.footerlink{
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   color:#686868;
   text-align: center;
 
