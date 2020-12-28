@@ -28,7 +28,7 @@ p.z {
   font-size: 29px; 
 }
 
-body.home{background-image: linear-gradient(#F6D4D2, white, white);}
+body.home{background-image: linear-gradient(#F6D4D2, white);}
 
 p.a {
    padding-left: 11%;
@@ -184,11 +184,10 @@ div.navbar-default > div.container
   text-align: center;
 font-family: 'Avenir', "Nunito Sans";
   font-weight: 500;
-    font-size: 60px;
+    font-size: 45px;
     color: black;
 
-  text-transform: lowercase;
-}
+  }
 #title2 {
 	text-align: center;
 font-family: 'Avenir', "Nunito Sans";
