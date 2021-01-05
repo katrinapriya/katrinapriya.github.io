@@ -1,18 +1,18 @@
 #demo .line,
 
 #demo {
-    text-align: center;
+    text-align: left;
     font-family: Avenir, Nunito Sans, sans-serif;
     font-weight: 500;
-    font-size: 75px;
+    font-size: 50px;
     color: black;
     letter-spacing: .03em; 
     padding: 0px;
 
 }
 #demo span {
-    height: 60px;
-    line-height: 60px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
 }
 
@@ -33,13 +33,13 @@
     content: "";
     position: absolute;
     display: inline-block;
-    height: 6rem;
+    height: 5rem;
     top: 50%;
     right: -3px;
     transform: translateY(-50%);
     border-left: 6px solid transparent;
     animation: 
-    blink-caret 2.3s;
+    blink-caret 1.8s;
 
 }
 

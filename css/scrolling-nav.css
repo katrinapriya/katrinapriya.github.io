@@ -28,7 +28,7 @@ p.z {
   font-size: 29px; 
 }
 
-body.home{background-image: linear-gradient(#F6D4D2, white);}
+body.home{background-image: linear-gradient(#F6D4D2, white,white,white);}
 
 p.a {
    padding-left: 11%;
@@ -100,7 +100,8 @@ li span {
     }
 }
 hr {
-  background-color: lightgray; height: .5px;
+  background-color: dimgrey; height: .5px;
+  border: dimgrey;
 
 };
 }
@@ -463,7 +464,7 @@ a:hover {
     font-size: 16px;
 }
 
-#myImg:hover {opacity: 0.6;}
+#myImg:hover {opacity: .5;}
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: black; !important;
