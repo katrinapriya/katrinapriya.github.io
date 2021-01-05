@@ -28,7 +28,7 @@ p.z {
   font-size: 29px; 
 }
 
-body.home{background-image: linear-gradient(#F6D4D2, white,white,white);}
+body.home{background-image: linear-gradient( white,white,white);}
 
 p.a {
    padding-left: 11%;
