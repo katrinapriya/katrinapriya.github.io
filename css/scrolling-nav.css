@@ -181,10 +181,10 @@ div.navbar-default > div.container
 }
 #frontTitle
 {
-  text-align: center;
+  text-align: left;
 font-family: 'Avenir', "Nunito Sans";
   font-weight: 500;
-    font-size: 45px;
+    font-size: 40px;
     color: black;
 
   }
