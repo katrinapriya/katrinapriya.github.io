@@ -9,7 +9,14 @@ body {
   	color:  #000000;
   	margin-bottom: 0px;
 }
+.transition-fade {
+  opacity: 1;
+  transition: 300ms;
+}
 
+html.is-animating .transition-fade {
+  opacity: 0;
+}
 p.e {
    padding-left: 15%;
    padding-right: 13%;
