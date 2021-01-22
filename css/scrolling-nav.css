@@ -363,7 +363,7 @@ a {
 
 }
 
-@keyframes transitionIn {
+@-webkit-keyframes transitionIn {
 
   from {
       opacity: 0;
