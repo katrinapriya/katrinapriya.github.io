@@ -127,10 +127,9 @@ li span {
     }
 }
 hr {
-  background-color: dimgrey; height: .5px;
-  border: dimgrey;
+  background-color: lightgrey; height: .1px;  
 
-};
+}
 }
 section {
     padding: 90px 0;
@@ -240,6 +239,15 @@ div.navbar-default > div.container
   font-family: 'AvenirNextLTPro', "Nunito Sans";
 
     font-size: 34px;
+    
+    color: black /*blue*/
+}
+
+#dessub{
+  text-align: left;
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+
+    font-size: 28px;
     
     color: black /*blue*/
 }
