@@ -402,12 +402,12 @@ a {
 
 .container {
   position: relative;
-  animation: transitionIn 1s;
+  animation: transitionIn 1.2s;
 
 }
 .imgg{
   position: relative;
-  animation: transitionIn 1s;
+  animation: transitionIn 1.2s;
 
 }
 
