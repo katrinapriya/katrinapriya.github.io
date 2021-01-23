@@ -195,6 +195,16 @@ div.navbar-default > div.container
     typing 2.2s steps(30, end),
     blink-caret 2.3s;
   }
+  #deshead {
+  text-align: left;
+ 
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+  
+    font-size: 55px;
+    color: black;
+    letter-spacing: 2px;
+
+  }
 
 /* The typing effect */
 @keyframes typing {
@@ -235,7 +245,7 @@ div.navbar-default > div.container
 }
 .column {
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
 /* Clear floats after the columns */
@@ -383,6 +393,11 @@ a {
 }
 
 .container {
+  position: relative;
+  animation: transitionIn 1s;
+
+}
+.imgg{
   position: relative;
   animation: transitionIn 1s;
 
