@@ -546,7 +546,7 @@ a {
 
 .container {
   position: relative;
- animation: transitionIn 1.2s;
+ -webkit-animation: transitionIn 1.2s;
 
   
 }
@@ -554,7 +554,7 @@ a {
 
 .imgg{
   position: relative;
-  animation: transitionIn 1s;
+  -webkit-animation: transitionIn 1s;
  
 
 }
