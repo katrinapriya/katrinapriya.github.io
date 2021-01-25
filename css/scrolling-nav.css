@@ -546,19 +546,12 @@ a {
 
 .container {
   position: relative;
- 
+ animation: transitionIn 1.2s;
 
   
 }
 
-.animate{
-  animation: transitionIn 1.2s;
-}
-.spacer
-{
-    width: 100%;
-    height: 1005px;
-}
+
 .imgg{
   position: relative;
   animation: transitionIn 1s;
