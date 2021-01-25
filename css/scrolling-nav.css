@@ -395,8 +395,8 @@ div.navbar-default > div.container
 }
 .column {
   float: left;
-  width: 50%;
-  margin-left: 10%;
+  width: 33%;
+
 }
 
 /* Clear floats after the columns */
