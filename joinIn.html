@@ -45,13 +45,26 @@
 <style>
   blockquote{
 background-color: white;
-  width: 55%;
+ 
+  width: 52%;
   border: 1px solid lightgrey;
   padding: 30px;
-  margin: 20px auto;
+  margin: 2px auto;
   border-radius: 10pt;
+  font-size: 14pt;
+  position:relative;
+  text-align: left;
+        left:5%;
 }
 
+.verticalLine {
+padding-left: 3.5%;
+  margin-left: 180px;
+  border-left: 4px solid #4B8F8C;
+  padding-right: 9%;
+  
+
+}
 </style>
 
 
@@ -103,71 +116,101 @@ background-color: white;
        <div class = "imgg">
        <img class="img-fluid" src="img/Asset 3@4x.png"></p></div>
     <div class = "container">
+      <section id = "overview">
 	<br>
-<p class="e" id = "deshead"><b>joinIn</b> <img class="img-fluid" src="img/joinintro.png"></p>
+<p class="ee" id = "deshead"><b>joinIn</b> <img class="img-fluid" src="img/joinintro.png"></p>
 
-
-
-<p class="e" id = "subtitle">
-  <br>
+<div id = "sidenav">
+        <aside>
+                     
+        <li><a href = "#overview"><span style= "font-size: 15px; letter-spacing: 1px">Overview</span><br></a></li>
+      
+      <li><a href = "#research"><span style= "font-size: 15px; letter-spacing: 1px">User Research</span> <br></a></li>
+     
+      <li><a href = "#ideation"><span style= "font-size: 15px; letter-spacing: 1px">Ideation</span>    <br></a></li>
+  
+      <li><a href = "#prototyping"><span style= "font-size: 15px; letter-spacing: 1px">Prototyping</span>  <br></a></li>
+    
+      <li><a href = "#final"><span style= "font-size: 15px; letter-spacing: 1px">Final Design</span></a></li>
+      
+      <li><a href = "#results"><span style= "font-size: 15px; letter-spacing: 1px">Results </span> <br></a></li>
+      </aside>
+      </div>
+<br>
+<p class="ee" id = "subtitle">
+  I often face this problem of wanting to do an activity with friends, but not knowing who would want to join. Once I realized how frequently I face this problem, I decided to create a solution. 
+  <br><br>
   <blockquote>
-                                <b>Problem:</b> I often want to do something with friends, but don't know who would be available and interested.
+                                <b>Problem:</b> I want to do something with friends, but don't know who's available or interested in joining me.  
 <br><br>
 <b>Solution:</b> To address this problem, I designed <a href="https://www.figma.com/proto/s5PJrrqr6uehtgAbo99hsp/JoinIn?scaling=scale-down&node-id=44%3A46" target="_blank" style="color:#2678E3">an app</a> where interested and available friends come to you. </b> 
-</blockquote>
+</blockquote></section>
 <br></p>
 
-                      <p class="e" id = "designtitle"> <b> Problem</b></p>
-                  
-                    <div p style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/problem.png" alt="affinity diagram" width="width" height="height" style="padding-bottom:0.5em;" /> <br><br></div> 
-<br><br>
- <p class="e" id = "designtitle">  
-                      <b> Research & Analysis</b></p>
+<section id = "research"> <br>
+<div class="verticalLine">
 
+  <p id = "greenheader"> 
+    <b>EXTRACTING USER INSIGHTS</b> </p>
+  <p id = "designtitle1"> 
+    Planning group activities can be difficult without knowing friends' availabilties. 
+  </div> 
 
- <p class="e" id = "subtitle">
+<br>
+ <p class="ee" id = "subtitle">
   I wanted to see if others faced this problem, and to what extent. I interviewed college students and conducted research on Reddit and Twitter to learn more about user pain points.
   <br><br>
-<div p style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/note.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-left: 2.5em;" /> <p class="e">  I used affinity diagramming to cluster observations from interviews & research into insights. </p>
+<div p style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/note.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-right: 6.5em; padding-left: 13.5em;" /> <p class="ee">  I used affinity diagramming to cluster observations from interviews & research into insights. </p>
                        </div>
                </p>         <br>
 
-<p class="e" id = "subtitle">
+<p class="ee" id = "subtitle">
 Here are a few of the user insights:
-<ol class='nums'><li><span> <b>Planning activities with friends requires a lot of effort and time.</b> It's difficult to commit to a time that works for everyone. It can be hard to initiate, especially in group settings.</span>
+<ol class='nums2'><li><span> <b>Planning activities with friends requires a lot of effort and time.</b> It's difficult to commit to a time that works for everyone. It can be hard to initiate, especially in group settings.</span>
 </li>
 <br> <li><span><b>Availability of friends is important, but often unknown.</b> There's no way to actually know who's available without repeatedly messaging first. Slow communication limits action, especially when there's a time constraint. </span></li>
 <br><li><span> <b>With fewer in-person interactions during the COVID-19 pandemic, there is less knowledge of friends' availabilities.</b> People are feeling a greater lack of motivation and accountability for social interactions. </span>
 </li>
-</ol>
-<br><br><br>
- <p class="e" id = "designtitle">  
-                       <b>Ideation</b></p>
-                        <p class="e" id = "subtitle">
+</ol></section>
+<br><br><section id = "ideation"><br>
+
+  <div class="verticalLine">
+
+    <p id = "greenheader"> 
+      <b>BRAINSTORMING DESIGNS</b> </p>
+    <p id = "designtitle1"> 
+    I used user insights to brainstorm features. I looked to popular social apps among college students for visual design inspiration. 
+    </div> <br>
+                        <p class="ee" id = "subtitle">
                      I was interested in designing a solution that I could develop myself. I have some iOS app development experience, so I chose to design an app. 
 
 <br>
 <br>
 </p>
-<div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/features2.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-left:2.5em;" /> <p class="e"> I brainstormed app features & design goals based on the key insights I extracted from the interviews.  </p>
+<div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/features2.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-left:13.5em; padding-right:6.5em;" /> <p class="ee"> I brainstormed app features & design goals based on the key insights I extracted from the interviews.  </p>
 </div></p>
 <br>
-<p class="e" id = "subtitle">
+<p class="ee" id = "subtitle">
                     I drew my visual design inspiration from apps that are popular among college students today, such as Venmo, Snapchat, and Instagram.
 
 <br>
 </p>
 <br>
-<div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/popular4.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em;" /> <p class="e"> I took note of visual elements that I wanted to replicate in my own design.  </p>
-</div></p><br>
+<div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/popular4.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em;padding-right:6em;padding-left:12.5em;" /> <p class="ee"> I took note of visual elements that I wanted to replicate in my own design.  </p>
+</div></p></section><br>
 
-<br><br>
- <p class="e" id = "designtitle"> 
-                      <b> Prototyping</b></p>
+<br><section id = "prototyping"><br><div class="verticalLine">
+
+  <p id = "greenheader"> 
+    <b>ITERATING WIREFRAMES</b> </p>
+  <p id = "designtitle1"> 
+  I asked users for feedback on features as I designed wireframes.  
+  </div><br>
+
                   
-                      <p class="e" id = "subtitle">
+                      <p class="ee" id = "subtitle">
                         Throughout the prototyping process, I asked users for feedback.
-With their help, I designed an app with the following features: <br><ol class='nums'><li><span> 
+With their help, I designed an app with the following features: <br><br><ol class='nums2'><li><span> 
 
   <b>A feed that lets you browse through what your friends are up to.</b> Joining an activity just takes one click. I wanted the primary function of the app to be straightforward.</span>
 </li> <br>
@@ -176,52 +219,56 @@ With their help, I designed an app with the following features: <br><ol class='n
                       <li>  <span><b>A groups feature that notifies you when your whole group is available.</b> Interviewees complained about planning activities with groups, as it can be difficult to plan around multiple schedules. </span></li><br>
 </ol>
 </p>
-                  <div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/mid2.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-left:7.5em; padding-right:5.5em" /> <p class="e"> I turned sketches into mid-fidelity wireframes focused on layout.  <br><br></p>
-                       </div>
+                  <div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/mid2.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-left:14em; padding-right:6.5em" /> <p class="ee"> I turned sketches into mid-fidelity wireframes focused on layout.  <br><br></p>
+                       </div></section>
                        <br>
-                       <br>
- <p class="e" id = "designtitle"> 
-                     <b>  High-Fidelity Design</b><br></p> 
-                                
-                      <p class="e" id = "subtitle">
+                       <br> <section id = "final"><br>
+                      <div class="verticalLine">
 
-                  I created the prototype on Figma using modern, sans-serif fonts, and a simple, playful color scheme.</p>
+                        <p id = "greenheader"> 
+                          <b>DESIGNING THE FINAL PROTOTYPE</b> </p>
+                        <p id = "designtitle1"> 
+                        I created the prototype on Figma using modern, sans-serif fonts, and a simple, playful color scheme.
+                        </div>
+<br>
+                     
 <br>
 
-<!-- <div style="width:image width px; font-size:75%; text-align:center;"><img class="img-fluid" src="img/UI.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em;" /> <p class="e"> Here are the primary interface style elements for my prototype. 
+<!-- <div style="width:image width px; font-size:75%; text-align:center;"><img class="img-fluid" src="img/UI.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em;" /> <p class="ee"> Here are the primary interface style elements for my prototype. 
 
 Icons from Flaticon &  Freepik
 </p> </div>-->
                        
 
 
-    <div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/highdes.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-left:5.5em; padding-right:3.5em;" /> </div>
-                       <br><br>
-                       Here's the <a href="https://www.figma.com/proto/s5PJrrqr6uehtgAbo99hsp/JoinIn?scaling=scale-down&node-id=44%3A46" target="_blank" style="color:#2678E3">interactive prototype</a>! 
+    <div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/highdes.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em; padding-left:9.5em; padding-right:0em;" /> </div>
+                       <br><br><p class = "ee">
+                       Here's the <a href="https://www.figma.com/proto/s5PJrrqr6uehtgAbo99hsp/JoinIn?scaling=scale-down&node-id=44%3A46" target="_blank" style="color:#2678E3";>interactive prototype</a>! 
                       <br>
                        </p>
-
+<div class = "narrow">
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="40%" height="705" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fs5PJrrqr6uehtgAbo99hsp%2FJoinIn%3Fnode-id%3D44%253A46%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+</div></section></p>
+<div container>
+                    <br><br><br> <section id = "results"><br>
+                   
+                      <div class="verticalLine">
+                    
+                        <p id = "greenheader"> 
+                          <b>RESULTS & REFLECTIONS</b> </p>
+                        <p id = "designtitle1"> 
+                        90% of user test participants said they would use this app frequently. All users found the app to be easy-to-use and intuitive. 
+                        </div> 
+                     <br>
 
-                    <br><br><br><br>
-                     <p class="e" id = "designtitle"> 
-                       <b>Results</b></p> 
-                                          <p class="e" id = "subtitle">
-
-                     I shared the prototype with the students I had interviewed earlier, and <b>90% said they would use this app frequently</b>. All users found the design to be <b>easy-to-use and intuitive.</b>
-<br><br></p>
-
-
-                      <div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/users.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em;" /> <p class="e"> Many users were very excited about the idea and saw themselves using it.  </p>
+                      <div style="width:image width px; font-size:80%; text-align:center;"><img class="img-fluid" src="img/users.png" alt="alternate text" width="width" height="height" style="padding-bottom:0.5em;padding-left:13.5em;padding-right:6.5em;" /> <p class="ee"> Many users were very excited about the idea and saw themselves using it.  </p>
                        </div>
-<br><br><br>
-         <p class="e" id = "designtitle"> 
-        <b>Next Steps</b></p>
- <p class="e" id = "subtitle">
+<br><br>
+ <p class="ee" id = "subtitle">
 After another design iteration where I address additional details, I plan on beginning to code and develop the actual app.<br><br>
 
-Eventually, I can measure the success of this app using the following metrics:<br>
- <ol class='nums'>
+Eventually, I can measure the success of this app's design using the following metrics:<br>
+ <ol class='nums2'>
                      <li><span>
                                  
 
@@ -230,9 +277,7 @@ Eventually, I can measure the success of this app using the following metrics:<b
                                   <li> <span><b>Happiness - how satisfied and happy are users with joinIn?</b> Observe net promoter scores and number of 5-star ratings. </span> </li> 
                            
 
-                                <li> <span> <b>Retention - do users keep coming back to use the app?</b> Calculate churn rate & retention rate. </span> </li>
-
-                              
+                                <li> <span> <b>Retention - do users keep coming back to the app?</b> Calculate churn & retention rates. </span> </li>
 
                            
 </ol>
@@ -241,12 +286,12 @@ Eventually, I can measure the success of this app using the following metrics:<b
                    
 <br><br><br>
 
- <p class="e" id = "designtitle"> 
+ <p class="ee" id = "designtake"> 
 <b> Takeaways </b></p> 
                        
-                      <p class="e" id = "subtitle">
+                      <p class="ee" id = "subtitle">
 
-                   <ol class='nums'>
+                   <ol class='nums2'>
                      <li><span>
                                 
                                 
@@ -260,8 +305,8 @@ Eventually, I can measure the success of this app using the following metrics:<b
                               
 
                            
-</ol>
-<br><br><br>
+</ol></section>
+<br><br><br><br>
 
  
  <span style="float:left;"><a class  style = "text-align: left"; href="sayfty">< previous project - Sayfty</a> </span><span style="float:right;"><a class="nav-link1" style = "text-align: right"; href="label">next project - Privacy & Security Label > </a></span>
@@ -285,7 +330,38 @@ Eventually, I can measure the success of this app using the following metrics:<b
     <a class = "footerlink"  href="https://www.behance.net/katrinapriya"> Behance </a> </b>  
     <a class = "footerlink" href = "https://github.com/katrinapriya" >GitHub</a></b>  <br><br>
      </div> </div> 
+<script>
+ jQuery(window).scroll(function () {
+ 
+ if (jQuery(window).scrollTop() >= 80 && jQuery(window).scrollTop() < 7000)
+     jQuery('#sidenav').addClass('fixed');
+ else
+     jQuery('#sidenav').removeClass('fixed');
+});
 
+
+
+      window.addEventListener('DOMContentLoaded', () => {
+    
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          const id = entry.target.getAttribute('id');
+          if (entry.intersectionRatio > 0) {
+            document.querySelector(`aside li a[href="#${id}"]`).parentElement.classList.add('active');
+          } else {
+            document.querySelector(`aside li a[href="#${id}"]`).parentElement.classList.remove('active');
+          }
+        });
+      });
+    
+      // Track all sections that have an `id` applied
+      document.querySelectorAll('section[id]').forEach((section) => {
+        observer.observe(section);
+      });
+      
+      });
+    
+</script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>

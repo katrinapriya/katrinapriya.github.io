@@ -194,6 +194,10 @@ li span {
   left: 30px;
 }
 
+.narrow {
+  padding-left: 12%;
+  padding-right: 0%;
+}
 .nums2{
   
   counter-reset: my-awesome-counter;
@@ -222,9 +226,9 @@ li span {
   font-size: 1.2rem;
   font-weight: bold;
   position: absolute;
-  --size: 35px;
+  --size: 38px;
   left: calc(-1 * var(--size) - 10px);
-  line-height: var(--size);
+  line-height: 42px;
   width: var(--size);
   height: var(--size);
   top: 0;
