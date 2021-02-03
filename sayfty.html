@@ -314,9 +314,9 @@ Once implemented, here are some <b>metrics</b> I would measure our design's succ
 <br><br>
 <br>
 
-
-   <a class="nav-link" style = "text-align: right"; href="joinIn">next project - joinIn > </a>
- 
+<span style="float:left;"><a class  style = "text-align: left"; href="joinIn">< previous project - joinIn</a> </span><span style="float:right;"><a class="nav-link1" style = "text-align: right"; href="label">next project - Privacy & Security Label > </a></span>
+                
+   
    
                     
  
@@ -355,7 +355,7 @@ Once implemented, here are some <b>metrics</b> I would measure our design's succ
    
 jQuery(window).scroll(function () {
  
- if (jQuery(window).scrollTop() >= 100)
+ if (jQuery(window).scrollTop() >= 100 && jQuery(window).scrollTop() < 8600)
      jQuery('#sidenav').addClass('fixed');
  else
      jQuery('#sidenav').removeClass('fixed');
