@@ -51,7 +51,10 @@
 
 }
 
-
+#content{
+  padding-left: 22%;
+  padding-right: 15%;
+}
 
   
 /*have side bar slide in from left*/
@@ -369,6 +372,14 @@ div.navbar-default > div.container
   font-family: 'AvenirNextLTPro', "Nunito Sans";
 
     font-size: 30px;
+    
+    color: black /*blue*/
+}
+#heading{
+  text-align: left;
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+
+    font-size: 40px;
     
     color: black /*blue*/
 }
