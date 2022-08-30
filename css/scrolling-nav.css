@@ -19,7 +19,20 @@
   url('../fonts/Avenir-Next/AvenirNextLTPro-Demi.ttf')  format('truetype'),
   url('../fonts/Avenir-Next/AvenirNextLTPro-Demi.svg') format('svg');
 }
-
+@font-face {
+    font-family: 'Hatton';
+    font-weight: normal;
+    font-style: normal;
+    font-variant:normal;
+    src: url('../fonts/Hatton-Medium.otf')  format('opentype');
+}
+@font-face {
+    font-family: 'Hatton Bold';
+    font-weight: normal;
+    font-style: normal;
+    font-variant:normal;
+    src: url('../fonts/Hatton-Semibold.otf')  format('opentype');
+}
 .clear {
   clear: both;
 }
@@ -344,7 +357,7 @@ div.navbar-default > div.container
 #frontTitle
 {
   text-align: left;
-  font-family: 'AvenirNextLTPro', "Nunito Sans";
+  font-family: 'Hatton Bold', "Nunito Sans";
   font-weight: 500;
     font-size: 40px;
     color: black;
@@ -352,7 +365,7 @@ div.navbar-default > div.container
   }
 #title2 {
 	text-align: left;
-  font-family: 'AvenirNextLTPro Bold', "Nunito Sans";
+  font-family: 'Hatton Bold', "Nunito Sans";
 
   font-size: 50px;
     
