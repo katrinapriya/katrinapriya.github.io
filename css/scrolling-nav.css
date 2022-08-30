@@ -84,9 +84,26 @@
   color: #4B8F8C;
 }
 
-li {
-list-style-type: none;
-line-height: 150%;
+
+ul.a {
+  text-align: left;
+  padding-left: 18%;
+   padding-right: 12%;
+   font-size: 18px;
+
+
+}
+ul span{
+  font-size: 18px;
+  font-weight: normal;
+}
+ul.b {
+  text-align: left;
+  padding-left: 25%;
+   padding-right: 9%;
+   font-weight: bold;
+   font-size: 22px;
+
 }
 
 
@@ -142,26 +159,7 @@ p.a {
    padding-right: 9%;
  
 }
-ul.a {
-  text-align: left;
-  padding-left: 18%;
-   padding-right: 12%;
-   font-size: 18px;
 
-
-}
-ul span{
-  font-size: 18px;
-  font-weight: normal;
-}
-ul.b {
-  text-align: left;
-  padding-left: 25%;
-   padding-right: 9%;
-   font-weight: bold;
-   font-size: 22px;
-
-}
 
 
 .nums{
@@ -474,7 +472,7 @@ div.navbar-default > div.container
   text-align: left;
  
   font-family: 'AvenirNextLTPro', "Nunito Sans";
-    font-size: 17px;
+    font-size: 16px;
    
     color:  black ;
 }
@@ -484,7 +482,7 @@ div.navbar-default > div.container
   font-weight: 500;
 }
 .green {
-  color: #66A182;
+  color: #15A083;
   font-weight: 500;
 }
 .bol {
@@ -600,7 +598,7 @@ a {
   }
 }
 a:hover {
-  color: #2678E3;
+  color: #15A083;
 }
 .modaltext {
     color: black !important;
