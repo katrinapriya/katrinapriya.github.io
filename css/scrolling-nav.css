@@ -444,11 +444,14 @@ div.navbar-default > div.container
   text-align: left;
   font-family: 'AvenirNextLTPro', "Nunito Sans";
     font-size: 23px;
-  
+
+ 
     color:  black ;
     
 }
-
+.sm{
+  width: 70%;
+}
 
 
 #subtitle2 {
