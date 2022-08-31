@@ -36,6 +36,7 @@
 .clear {
   clear: both;
 }
+
 /* Only stick if you can fit */
 @media (min-width: 600px) {
 #sidenav {
@@ -443,8 +444,8 @@ div.navbar-default > div.container
 #homep{
   text-align: left;
   font-family: 'AvenirNextLTPro', "Nunito Sans";
-    font-size: 21px;
- max-width: 650px;
+  font-size: 21px;
+  max-width: 650px;
  
     color:  black ;
     
