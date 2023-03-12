@@ -278,6 +278,7 @@ section {
     font-family: 'AvenirNextLTPro', "Nunito Sans";
     font-size: 20px;
     text-align: center;
+
 }
 
 .navbar .navbar-collapse {
@@ -722,7 +723,7 @@ a:hover {
 
 
 a:hover, a:active, a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footerlink a, a.footerlink{
@@ -734,5 +735,5 @@ a:hover, a:active, a:focus {
 
 }
 .footerlink:hover {
-  color: #2678E3;
+  color: #15A083;
 }
