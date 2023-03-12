@@ -292,9 +292,8 @@ Eventually, I can measure the success of this app's design using the following <
 </ol></section>
 <br><br><br><br>
 
- 
-<a class="nav-link" style = "text-align: right"; href="marketplace">next project - Marketplace > </a>
- 
+  <span style="float:left;"><a class  style = "text-align: left"; href="marketplace">< previous project - Marketplace</a> </span><span style="float:right;"><a class="nav-link1" style = "text-align: right"; href="zest">next project - Zest Organics > </a></span>
+
 
                    <br>          
                        
@@ -317,7 +316,7 @@ Eventually, I can measure the success of this app's design using the following <
 <script>
  jQuery(window).scroll(function () {
  
- if (jQuery(window).scrollTop() >= 80)
+ if (jQuery(window).scrollTop() >= 80 && jQuery(window).scrollTop() < 8600)
      jQuery('#sidenav').addClass('fixed');
  else
      jQuery('#sidenav').removeClass('fixed');
