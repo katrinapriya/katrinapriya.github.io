@@ -288,7 +288,7 @@ section {
 ul.nav  a:active {
     color: black !important;
     background-color: transparent;
-    text-decoration:none; }
+    text-decoration:bold; }
 
 ul.nav a:link {
     color: black !important;
