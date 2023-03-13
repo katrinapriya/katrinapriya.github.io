@@ -140,6 +140,14 @@ p.ee {
   padding-right: 9%;
   
 }
+#projectsubtext {
+  
+    text-align: left
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 24px;
+    color: black;
+
+}
 p.b {
    font-size: 17px;
    
@@ -380,6 +388,7 @@ div.navbar-default > div.container
     
     color: black /*blue*/
 }
+
 #designtake{
   text-align: left;
   font-family: 'AvenirNextLTPro', "Nunito Sans";
@@ -721,8 +730,10 @@ a:hover {
     border-radius: 10px;
 }
 
-
-a:hover, a:active, a:focus {
+a:active, a:focus {
+  text-decoration: none;
+}
+a:hover {
   text-decoration: underline;
 }
 
