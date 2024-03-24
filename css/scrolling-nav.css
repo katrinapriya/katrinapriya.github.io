@@ -1,4 +1,6 @@
 
+/* FONTS */
+
 @font-face {
   font-family: 'AvenirNextLTPro';
   font-weight: normal;
@@ -33,6 +35,41 @@
     font-variant:normal;
     src: url('../fonts/Hatton-Semibold.otf')  format('opentype');
 }
+
+/* HOME PAGE */
+/* #DEMO IN TYPING.CSS FOR NAME */
+#homep{
+  text-align: left;
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+  font-size: 20px;
+  max-width: 650px;
+ 
+    color:  black ;
+    
+}
+
+
+/* ABOUT PAGE */
+
+#frontTitle
+{
+  text-align: left;
+  font-family: 'Hatton Bold', "Nunito Sans";
+  font-weight: 500;
+  font-size: 40px;
+  color: black;
+}
+
+#about {
+text-align: left;
+font-family: 'AvenirNextLTPro', "Nunito Sans";
+font-size: 18px;
+color:  black ;
+}
+
+
+
+
 .clear {
   clear: both;
 }
@@ -362,15 +399,7 @@ div.navbar-default > div.container
   from, to { border-color: transparent }
   50% { border-color: #191C5F; }
 }
-#frontTitle
-{
-  text-align: left;
-  font-family: 'Hatton Bold', "Nunito Sans";
-  font-weight: 500;
-    font-size: 40px;
-    color: black;
 
-  }
 #title2 {
 	text-align: left;
   font-family: 'Hatton Bold', "Nunito Sans";
@@ -451,15 +480,7 @@ div.navbar-default > div.container
   }
 }
 
-#homep{
-  text-align: left;
-  font-family: 'AvenirNextLTPro', "Nunito Sans";
-  font-size: 21px;
-  max-width: 650px;
- 
-    color:  black ;
-    
-}
+
 
 
 #subtitle2 {
@@ -471,22 +492,23 @@ div.navbar-default > div.container
     color:  blue ;
 }
 
+
 #subtitle {
 	text-align: left;
  
   font-family: 'AvenirNextLTPro', "Nunito Sans";
     font-size: 18px;
-  
     color:  black ;
 }
-#about {
-  text-align: left;
- 
-  font-family: 'AvenirNextLTPro', "Nunito Sans";
-    font-size: 16px;
-   
-    color:  black ;
-}
+
+
+
+
+
+
+
+
+
 
 .blue {
   color: #4B8F8C;
