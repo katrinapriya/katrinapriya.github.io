@@ -1,14 +1,14 @@
 
-  @font-face {
-    font-family: 'AvenirNextLTPro';
-    font-weight: normal;
-    font-style: normal;
-    font-variant:normal;
-    src: url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.eot') format('eot'),
-    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.otf')  format('opentype'),
-    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.woff') format('woff'),
-    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.ttf')  format('truetype'),
-    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.svg') format('svg');
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  font-weight: normal;
+  font-style: normal;
+  font-variant:normal;
+  src: url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.eot') format('eot'),
+  url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.otf')  format('opentype'),
+  url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.woff') format('woff'),
+  url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.ttf')  format('truetype'),
+  url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.svg') format('svg');
 }
 @font-face {
   font-family: 'AvenirNextLTPro Bold';
