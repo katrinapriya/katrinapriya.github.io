@@ -41,13 +41,11 @@
 #homep{
   text-align: left;
   font-family: 'AvenirNextLTPro', "Nunito Sans";
-  font-size: 20px;
+  font-size: 22px;
   max-width: 650px;
- 
-    color:  black ;
+  color:  black ;
     
 }
-
 
 /* ABOUT PAGE */
 
@@ -67,8 +65,14 @@ font-size: 18px;
 color:  black ;
 }
 
-
-
+#header2
+{
+  text-align: left;
+  font-family: 'Hatton Bold', "Nunito Sans";
+  font-weight: 500;
+  font-size: 32px;
+  color: black;
+}
 
 .clear {
   clear: both;
@@ -120,6 +124,7 @@ color:  black ;
 
 #sidenav a:hover {
   color: #4B8F8C;
+  
 }
 
 
@@ -333,7 +338,9 @@ section {
 ul.nav  a:active {
     color: black !important;
     background-color: transparent;
-    text-decoration:bold; }
+    text-decoration:bold;
+    font-weight: bold;
+    font-family: 'AvenirNextLTPro Bold'; }
 
 ul.nav a:link {
     color: black !important;
