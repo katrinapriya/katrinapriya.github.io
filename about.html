@@ -49,6 +49,51 @@
       padding: 20px;
       
   }
+  @media screen and (max-width: 768px) {
+        .container1 {
+            flex-direction: column; /* Stack columns vertically on smaller screens */
+        }
+
+        .box {
+            margin-right: 0; /* Remove right margin on smaller screens */
+        }
+    }
+
+
+    .container2 {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column2 {
+        padding: 10px;
+    }
+
+    .left-column2 {
+        flex: 0 0 40%; /* 40% width */
+        max-width: 40%;
+    }
+
+    .right-column2 {
+        flex: 0 0 60%; /* 60% width */
+        max-width: 60%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    @media screen and (max-width: 768px) {
+        .left-column2, .right-column2 {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
 </style>
 
 
@@ -93,31 +138,37 @@
     <!-- BODY -->
 <section id="about">
   <div class="container">
-     <div class="row">
-      <div class="col-sm-4 mx-auto">
-      <br>
-      <img class="img-responsive, rounded" style="width:106%" src="img/about.jpg">
-      <br><br>
-      </div> 
-
-      <div class="col-sm-7 mx-auto">
-      <br>        
-        <h1 id = "frontTitle"> hey there, I'm Katrina! &#128075; </h1>       
+    <div class="container2"><br><br>
+      <div class="column2 left-column2">
+          <img class = "rounded" width = 90% src="img/about.jpg">
+      </div>
+      <div class="column2 right-column2">
+        <h1 id = "frontTitle"> hey there, I'm Katrina! &#128075; </h1>
         <p id = "about">
           <br>
-          I can't resist seeing the world through a design lens. Whether I'm planning a party, organizing travel adventures, or completing a home project, I am always utilizing design thinking!
-<br><br>
-          At <a href="https://www.unqork.com/"style="color:#15A083"><b>Unqork</a></b>, I've had the chance to craft the vision for some of the platform's trickiest technical problems. It has fueled my passion for innovation and my knack for finding creative solutions.
+          I am someone who cannot resist seeing the world through a design lens! Design thinking is a huge part of who I am, regardless of
+          whether I'm planning a party, organizing travel adventures, or completing a home project.
+
                <br><br>
-          My education in data science, entrepreneurship, and design at UC Berkeley was the perfect combination to navigate the dynamic world of tech startups. 
+               I majored in Data Science at UC Berkeley, while also earning certificates in entrepreneurship and design.
+               My background helps me dig deeper into technical problem areas. 
+         
+         <br><br>
+          At <a href="https://www.unqork.com/"style="color:#15A083"><b>Unqork</a></b>, I've had the chance to 
+          craft the vision for some of the platform's trickiest technical problems. 
+          It has fueled my passion for breaking down complexity to create user-centric solutions.     
+         <br><br>
+          I thrive on building a vibrant and supportive atmosphere within the teams I'm a part of. I find delight in celebrating wins and organizing creative, virtual hangouts.
                <br><br>
-          From organizing social events and creativity exercises, to starting processes to celebrate team wins, I thrive on building a vibrant and supportive atmosphere within my design team. 
-               <br><br>
-          Based in sunny Southern California, you can find me <a href="dance"style="color:#15A083"><b>dancing</b></a>, background acting, writing, or <a href="drawing" style="color:#15A083"><b>drawing</b></a>! &#128151
-<br><br>  <br><br>
+          Outside of tech, I'm fascinated by the entertainment industry -- I actually had my TV debut recently on Law & Order: SVU! I also love to travel,
+          <a href="drawing"style="color:#15A083"><b>draw</b></a>, write, and 
+          <a href="dance" style="color:#15A083"><b>dance</b></a>! 
+          
+<br><br><br></p></div>
+  </div> 
+     <br> <br>  
 <!--Check out <b><a href="Katrina_Priya_Resume.pdf"style="color:#15A083">my resume here</a>! </b>Email <b>katrina.priya@berkeley.edu</b> to reach out.</b>-->
-</p>    
-</div>
+
 <div class="container">
          
               <h1 id = "header2"> some words from my peers  &#128172; </h1></div>
@@ -125,19 +176,19 @@
       
               <div class="box">”Katrina is a self-starter, who takes initiative to identify clear and actionable next steps. Her ability to navigate complex concepts and translate them into high-quality, user-friendly experiences is exceptional.”
 <br><br>
-                <a href="https://www.linkedin.com/in/samanthaasimon/"style="color:#15A083"><b>Samantha</a></b> <br>
+                <a href="https://www.linkedin.com/in/samanthaasimon/"style="color:#15A083"><b>-- Samantha</a></b><br>
                
                 Senior Product Designer, Unqork </div>
               <div class="box">“Beyond her design powers, Katrina has a clear passion to foster a positive work environment in our design team. She takes the initiative to create an inclusive and happy atmosphere for everyone.”
 
 <br><br>
-<a href="https://www.linkedin.com/in/chela-giraldo/"style="color:#15A083"><b>Chela</a></b> 
+<a href="https://www.linkedin.com/in/chela-giraldo/"style="color:#15A083"><b>-- Chela</b> </a> 
                 <br>Design Systems Designer, Unqork
                 </div>
-              <div class="box">“Katrina is agile and flexible. She doesn't get stuck on small details and is able to quickly iterate. She's also a fast learner and strong communicator, who can calmly analyze any feasibility issues and provide viable alternatives.” 
+              <div class="box">“Katrina is agile and flexible. She doesn't get stuck on small details and is able to quickly iterate. She's a fast learner, who can calmly analyze any feasibility issues and provide viable alternatives.” 
 
 <br><br>
-<a href="https://www.linkedin.com/in/rafaismyname/"style="color:#15A083"><b>Rafa</a></b>
+<a href="https://www.linkedin.com/in/rafaismyname/"style="color:#15A083"><b>-- Rafa</b> </a>
                 <br>Staff Engineer, Unqork
                 </div></div> </div>
               </div> </div>
