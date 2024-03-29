@@ -41,7 +41,7 @@
 #homep{
   text-align: left;
   font-family: 'AvenirNextLTPro', "Nunito Sans";
-  font-size: 2.5vmin;
+  font-size: 22px;
   max-width: 650px;
   color:  black ;
     
@@ -54,7 +54,7 @@
   text-align: left;
   font-family: 'Hatton Bold', "Nunito Sans";
   font-weight: 500;
-  font-size: 44ox;
+  font-size: 44px;
   color: black;
 }
 
@@ -123,7 +123,7 @@ color:  black ;
 } 
 
 #sidenav a:hover {
-  color: #4B8F8C;
+  color: #139075;
   
 }
 
@@ -152,7 +152,7 @@ ul.b {
 
 /*JAVASCRIPT HERE. RESPONSIVE SIDE BAR*/
 #sidenav li.active > a {
-  color: #4B8F8C;
+  color: #139075;
   font-family: 'AvenirNextLTPro Bold';
 }
 
@@ -455,7 +455,7 @@ div.navbar-default > div.container
   letter-spacing: 2px;
     font-size: 19px;
     
-    color: #4B8F8C /*blue*/
+    color: #139075 /*blue*/
 }
 
 #dessub{
@@ -518,11 +518,11 @@ div.navbar-default > div.container
 
 
 .blue {
-  color: #4B8F8C;
+  color: #139075;
   font-weight: 500;
 }
 .green {
-  color: #15A083;
+  color: #139075;
   font-weight: 500;
 }
 .bol {
@@ -638,7 +638,7 @@ a {
   }
 }
 a:hover {
-  color: #15A083;
+  color: #139075;
 }
 .modaltext {
     color: black !important;
