@@ -392,8 +392,17 @@ div.navbar-default > div.container
     font-size: 55px;
     color: black;
     letter-spacing: 2px;
-
+    line-height: 0.9; 
   }
+
+  #description {
+    text-align: left;
+   
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+      font-size: 24px;
+      color: black;
+  
+    }
 
 /* The typing effect */
 @keyframes typing {
@@ -776,4 +785,45 @@ a:hover {
 }
 .footerlink:hover {
   color: #15A083;
+}
+
+
+/* trying 3 columns */
+.container1 {
+  display: flex;
+  justify-content: space-between;
+ 
+    padding-left: 22%;
+    padding-right: 9%;
+    
+
+}
+
+.column1 {
+  width: 30%;
+  text-align: left;
+}
+
+.header1 {
+  color: #139075;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+.body-text {
+  color: black;
+  font-size: 0.8em;
+  text-transform: none;
+}
+
+.divider1 {
+  height: 1px;
+  background-color: #139075;
+  margin-top: 20px;
+  margin-left: 22%;
+  margin-right: 9%;
+    
 }
