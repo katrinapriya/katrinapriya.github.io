@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protected Page</title>
     <script>
         function checkPassword() {
-            const password = prompt("Enter the password:");
-            if (password === "yourPassword") { // Replace 'yourPassword' with your actual password
+            const password = prompt("Enter password:");
+            if (password === "logic24") { // Replace 'yourPassword' with your actual password
                 document.getElementById("protected-content").style.display = "block";
             } else {
-                alert("Incorrect password!");
+                alert("Incorrect password. Please reach out for access.");
                 window.location.href = "index.html"; // Redirect to your homepage or another page
             }
         }
@@ -18,8 +17,8 @@
 </head>
 <body onload="checkPassword()">
     <div id="protected-content" style="display:none;">
-        <h1>This is the protected content!</h1>
-        <p>Only accessible with the correct password.</p>
+        <h1>This is protected content.</h1>
+        <p>Only accessible with password. Contact me for access.</p>
     </div>
 </body>
 
