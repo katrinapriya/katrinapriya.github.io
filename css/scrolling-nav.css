@@ -79,7 +79,7 @@ color:  black ;
 }
 
 /* Only stick if you can fit */
-@media (min-width: 800px) {
+@media (min-width: 600px) {
 #sidenav {
   display: none;
  
@@ -91,7 +91,7 @@ color:  black ;
  color: transparent;
 
 }
-@media (max-width: 800px) { /* You can adjust the max-width value as needed */
+@media (max-width: 600px) { /* You can adjust the max-width value as needed */
   #sidenav {
       display: none;
   }
@@ -189,8 +189,8 @@ p.ee {
 }
 #projectsubtext {
   
-    text-align: left;
-    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    text-align: left
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
     font-size: 24px;
     color: black;
 
@@ -320,7 +320,7 @@ hr {
   background-color: lightgrey; height: .1px;  
 
 }
-
+}
 section {
     padding: 90px 0;
 }
@@ -504,21 +504,17 @@ div.navbar-default > div.container
     
     color: black /*blue*/
 }
-blockquote {
-  background-color: white;
-  width: 52%;
-  border: 1px solid lightgrey;
-  padding: 30px;
-  margin: 3px auto;
-  border-radius: 10pt;
-  font-size: 14pt;
-  position:relative;
-  text-align: left;
-    left:6%; 
-  }
+
 .verticalLine {
   margin-left: 18%;
   margin-right: 6%;
+border-left: 4px solid #4B8F8C;
+padding-left: 4%;
+
+border-radius: 4px;
+}
+.verticalLine2 {
+
 border-left: 4px solid #4B8F8C;
 padding-left: 4%;
 
@@ -825,7 +821,7 @@ a:hover {
 #myImg:hover {opacity: .5;}
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: black;
+    background-color: black; !important;
     border: black!important;/*blue*/
   	color: white\ !important;
   	border-radius: 25%;
