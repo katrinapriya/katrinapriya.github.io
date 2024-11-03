@@ -91,6 +91,11 @@ color:  black ;
  color: transparent;
 
 }
+@media (max-width: 600px) { /* You can adjust the max-width value as needed */
+  #sidenav {
+      display: none;
+  }
+}
 #sidenav.fixed {
   width: 12%;
   display:inline-block;
@@ -174,12 +179,12 @@ body {
 
 p.e {
    padding-left: 15%;
-   padding-right: 12%;
+   padding-right: 8%;
    
 }
 p.ee {
   padding-left: 22%;
-  padding-right: 9%;
+  padding-right: 8%;
   
 }
 #projectsubtext {
@@ -221,7 +226,7 @@ p.a {
   list-style: none;
   text-align: left;
   padding-left: 19%;
-   padding-right: 10%;
+   padding-right: 8%;
    text-align: left;
 
    font-size: 18px;
@@ -271,7 +276,7 @@ li span {
   list-style: none;
   text-align: left;
   padding-left: 27%;
-   padding-right: 10%;
+   padding-right: 8%;
    text-align: left;
 
    font-size: 18px;
@@ -453,18 +458,81 @@ div.navbar-default > div.container
 #designtitle1{
   text-align: left;
   font-family: 'AvenirNextLTPro', "Nunito Sans";
-
-    font-size: 25px;
-
+    font-size: 24px;
     color: black /*blue*/
 }
 #greenheader{
   text-align: left;
   font-family: 'AvenirNextLTPro', "Nunito Sans";
   letter-spacing: 2px;
-    font-size: 19px;
-    
+    font-size: 18px;
+  
     color: #139075 /*blue*/
+}
+
+#caption{
+  text-align: center;
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+  font-size: 16px;
+  color: #686868; /*grey*/
+  margin-right: 8%;
+  margin-left: 22%;
+}
+
+#alert-box {
+  margin-left: 22%;
+  margin-right: 9%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  background-color: #f0fdf4; /* Light green background */
+  border-radius: 4px;
+  }
+
+#infodescription{
+  text-align: left;
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+  font-size: 18px;
+  color: black /*blue*/
+  
+}
+#infoheader{
+  text-align: left;
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 20px;
+    
+    color: black /*blue*/
+}
+blockquote {
+  background-color: white;
+  width: 52%;
+  border: 1px solid lightgrey;
+  padding: 30px;
+  margin: 3px auto;
+  border-radius: 10pt;
+  font-size: 14pt;
+  position:relative;
+  text-align: left;
+    left:6%; 
+  }
+.verticalLine {
+  margin-left: 18%;
+  margin-right: 6%;
+border-left: 4px solid #4B8F8C;
+padding-left: 4%;
+
+border-radius: 4px;
+}
+.alert-box {
+margin-left: 22%;
+margin-right: 9%;
+padding-left: 2%;
+padding-right: 2%;
+padding-bottom: 1%;
+padding-top: 2%;
+background-color: #f0fdf4; /* Light green background */
+border-radius: 10px;
 }
 
 #dessub{

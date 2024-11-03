@@ -36,26 +36,6 @@
 <meta name="author" content="Katrina Priya">
 <link href="styles.css" rel="stylesheet">
 
-<style>
-  blockquote {
-    background-color: white;
-    width: 52%;
-    border: 1px solid lightgrey;
-    padding: 30px;
-    margin: 3px auto;
-    border-radius: 10pt;
-    font-size: 14pt;
-    position:relative;
-    text-align: left;
-      left:6%; 
-    }
-  .verticalLine {
-  padding-left: 5.5%;
-  margin-left: 180px;
-  border-left: 4px solid #4B8F8C;
-  padding-right: 9%;
-  }
-</style>
 </head>
 
 <!-- BODY -->
@@ -143,11 +123,12 @@
     <div class = "divider1"></div></p>
 <br>
   <p class="ee" id = "subtitle">
-    I joined <a href="https://www.unqork.com/"style="color:#139075"><b>Unqork's</b></a> Data Experience team as their first designer. Through rounds of product definition, research, and design iterations, I crafted a data-first approach that allows users to define their data schemas upfront, and seamlessly integrate those fields into their application. </p>
+    <a href="https://www.unqork.com/"style="color: #4B8F8C;"><b>Unqork</b></a> enables users to build enterprise-grade software applications visually, without a single line of code. I joined Unqork's Data Experience team as their first designer. 
+    <br><br>I crafted a data-first approach to building apps that allows users to define their data schemas upfront, and seamlessly integrate those fields into their application. This is the standard in software development, but was previously difficult to do in Unqork.</p>
     <br><blockquote>
-    <b>Problem:</b> Users wanting to build with a data-first approach, the ideal standard for app development, face a tedious, error-prone, and manual process in Unqork.
+    <b>Problem:</b> Users wanting to build with a data-first approach face a tedious, error-prone process in Unqork.
     <br><br>
-    <b>Solution:</b> Introduce a guided experience for integrating data schemas to a user's workflow, while promoting best practices and data integrity.
+    <b>Solution:</b> A guided experience for integrating data schemas to a user's workflow, while promoting best practices.
   </blockquote>
   <br></p><br>
 </section>
@@ -158,23 +139,26 @@
 <section id = "define"> <br>
   <div class="verticalLine">
     <p id = "greenheader"> 
-      <b>DEFINING THE SPACE</b> </p>
+      <b>1. DEFINING THE SPACE</b> </p>
     <p id = "designtitle1"> <b>
       I crafted visual & written artifacts to drive stakeholder alignment, and thereby inform product strategy and requirements.</b>
     </div> <br>
    <p class="ee" id = "subtitle">
-    As the team’s first product designer, I helped transition a backend-focused team into a more user-facing product team. There was limited product management support, with engineers often driving requirements. 
-<br><br>
-To understand the highly technical and ambiguous data modeling space, I conducted 1-on-1 sessions with each team member. I felt like a detective, piecing together information from these sessions and consolidating project-related resources. 
+    
+    As the team’s first designer, I helped transition a backend team into a user-facing product team, with minimal product management support. To delve into the space, I set up 1-on-1s with each team member. <br><br>
+I felt like a detective, piecing together information and consolidating project-related resources. 
+<!-- There was limited product management support, with engineers often driving requirements.  -->
 
     <br><br>
-  <div p style="width:image width px; font-size:85%; color: #686868; text-align:center;"><img class="img-fluid" src="img/data/conceptMap.png" alt="concept map for data models" width="width" height="height" style="padding-bottom:0.5em; padding-right: 6em; padding-left: 14em;" /> <p class="ee"> Visual artifacts were instrumental in clarifying relationships & terminology, resolving internal confusion and misalignment. </p> </div></p> 
+ <img class="img-fluid" src="img/data/conceptMap.png" alt="concept map for data models"/> 
+
+ <p id="caption"> I brought my design expertise to stakeholder meetings in the form of visual artifacts. Artifacts such as this one were instrumental in clarifying relationships & terminology, resolving internal misalignment.</p> 
   <br>
   <p class="ee" id = "subtitle">
 <br<br>
 Ultimately, these efforts resulted in a documented "single source of truth" that not only guided our project, but also served as a valuable resource for onboarding new team members to the project.
 <br> <br>
-<div p style="width:image width px; font-size:85%; color: #686868; text-align:center;"><img class="img-fluid" src="img/data/docs.png" alt="concept map for data models" width="width" height="height" style="padding-bottom:0.5em; padding-right: 6em; padding-left: 14em;" /></div></p>
+<div p style="width:image width px; font-size:85%; color: #686868; text-align:center;"><img class="img-fluid" src="img/data/docs.png" alt="concept map for data models" width="width" height="height" style="padding-bottom:0.5em; padding-right: 5em; padding-left: 14em;" /></div></p>
 </section>
 
 <br><br><br>
@@ -185,28 +169,32 @@ Ultimately, these efforts resulted in a documented "single source of truth" that
 <section id = "research"> <br>
   <div class="verticalLine">
     <p id = "greenheader"> 
-      <b>EXTRACTING USER INSIGHTS</b> </p>
+      <b>2. EXTRACTING USER INSIGHTS </b> </p>
     <p id = "designtitle1"> <b>
-      I conducted user research to understand the pain points of building with data schemas in Unqork today, and gather feedback on initial design explorations. </b>
+      Through user interviews, I learned about the current tedious, error-prone workarounds to use schemas. I also learned that users prefer a Nested View of their schemas. </b>
     </div> 
    <!-- <p class="ee" id = "subtitle"> -->
     <!-- Next, I conducted user research to understand the current process and pain points of building with data schemas in Unqork. I also shared early wireframes to gather feedback on schema building visualizations and interactions.  -->
     <br>
-  <div p style="width:image width px; font-size:85%; color: #686868; text-align:center;"><img class="img-fluid" src="img/data/process.png" alt="current process" width="width" height="height" style="padding-bottom:0.5em; padding-right: 4em; padding-left: 14em;" /> <p class="ee">  Current flow of building with schemas based on user interviews </p> </div></p> 
-  <br>
-  <p class="ee" id = "subtitle">
-  Here were some of the user pain points:
-  <ol class='nums2'><li><span>  Schema fields are being defined in hacky, unintuitive ways since there is no dedicated schema builder interface. </span>
-  </li>
-  <li><span>Updating modules that use schemas is tedious and prone to errors. It is hard to track dependencies or changes.</span></li>
-<li><span> Creators are using hidden components without validations, resulting in unclear & missing data types, validations, and nested data. </span>
-  </li>
-  </ol><br>
-  <p class="ee" id = "subtitle">
-    I shared two different visualization methods for schemas. The Nested View better met user expectations, feeling simpler to read and more familiar. The ERD View was confusing, likely because users expected to see relationships between schemas in a diagram format, not the schema itself.
-  </p><br>
-  <div p style="width:image width px; font-size:85%; color: #686868; text-align:center;"><img class="img-fluid" src="img/data/views.png" alt="current process" width="width" height="height" style="padding-bottom:0.5em; padding-right: 4em; padding-left: 14em;" /> </div></p> 
+    <img class="img-fluid" src="img/data/process.jpg" alt="current process" style="padding-bottom: 0.5em; padding-right: 4em; padding-left: 12em;" /> 
+ <!--  <p id="caption"> Current flow of building with schemas based on user interviews </p>  -->
   <br><br><br>
+  <p class="ee" id = "subtitle">
+  Here were some of the key user pain points:
+  <ol class='nums2'><li><span>  Schema fields are being defined in hacky, unintuitive ways, since there is no dedicated schema builder interface. </span></li>
+  <li><span>Updating modules that use schemas is tedious and prone to errors. It is hard to track dependencies or changes.</span></li>
+<li><span> By using hidden components without validations, there are unclear & missing data types, validations, and nested data. </span></li>
+  </ol><br></p>
+  <p class="ee" id = "subtitle">
+    I also shared the following schema visualization methods with users: 
+  </p>
+<img class="img-fluid" src="img/data/view1.jpg" width="width" height="height" style="padding-bottom: 0.5em; padding-right: 4em; padding-left: 12em;" /> 
+  <p id = "caption"> The <b>Nested View</b> better met user expectations, feeling simpler to read and more familiar. </p>
+  <br><br>
+<img class="img-fluid" src="img/data/view2.jpg" width="width" height="height" style="padding-bottom: 0.5em; padding-right: 4em; padding-left: 12em;" /> 
+  <p id="caption">The <b>ERD View</b> was confusing, likely because users expected to see relationships <i>between</i> schemas in a diagram format, not the schema itself.</p>
+  
+</p><br><br><br>
 </section>
 
 
@@ -215,7 +203,7 @@ Ultimately, these efforts resulted in a documented "single source of truth" that
 <section id = "designs"> <br>
   <div class="verticalLine">
     <p id = "greenheader"> 
-      <b>FINAL DESIGNS</b> </p>
+      <b>3. HANDING OFF DESIGNS</b> </p>
     <p id = "designtitle1"> <b>
       Using Unqork's design system, I iterated on designs and handed off a schema builder interface, alongside designs for data models & record collections. </b>
     </div> <br>
@@ -244,25 +232,27 @@ Ultimately, these efforts resulted in a documented "single source of truth" that
 <section id = "results"> <br>
   <div class="verticalLine">
     <p id = "greenheader"> 
-      <b>RESULTS</b> </p>
-    <p id = "designtitle1"> <b>These features successfully introduced a data-first approach to building in Unqork that was well-received by users and stakeholders.</b>
+      <b>4. RESULTS AND LEARNINGS</b> </p>
+    <p id = "designtitle1"> <b>Our initial release has a 95% adoption rate among clients, and enables users to import and utilize schemas in their applications.</b>
     </div> <br>
     <p class="ee" id = "subtitle">
-      Our initial release has a 95% adoption rate among our clients, and enables users to import data schemas and integrate those data fields into application modules. </p>
-      <br><blockquote>
-    “This [data models] feature is game changing! I can already imagine new use-cases that this experience unlocks for me.”
-      <br><br>
-      <b>-- Unqork’s biggest client</b>
-    </blockquote>
-    
-    <br><blockquote>
+      Through this project, I learned to navigate an ambiguous space and develop concepts from 0 to 1. I also discovered how to leverage visual artifacts to align stakeholders. I'm happy to have received positive feedback from clients, and a high adoption rate after release.
+<br><br>
+       </p>
+       
+    <div p style="width:image width px; font-size:85%; color: #686868; text-align:center;"><img class="img-fluid" src="img/data/kudos1.png" alt="current process" width="width" height="height" style="padding-bottom:0.5em; padding-right: 7em; padding-left: 14em;" /> </div></p> 
+  <br>
+  <div p style="width:image width px; font-size:85%; color: #686868; text-align:center;"><img class="img-fluid" src="img/data/kudos2.png" alt="current process" width="width" height="height" style="padding-bottom:0.5em; padding-right: 7em; padding-left: 14em;" /> </div></p> 
+  <br><blockquote>
       “Katrina was tasked with the difficult challenge to design the experience for Data Model and Schemas without support from a dedicated Product Manager and User Researcher. 
 <br><br>
 She took ownership over the initiative as the lead, independently conducting extensive research and discovery. <br><br> She delivered amazing designs that are impactful in developing a data first approach for our creators." 
 <br><br>
 <b>-- <a href="https://www.linkedin.com/in/aho18/"style="color:#139075"><b>Adrian</b></a>, Product Manager</b>
       </blockquote>
-   </section>
+  <br><br>
+     
+    </section>
   
 
 <br><br><br>
@@ -294,7 +284,7 @@ She took ownership over the initiative as the lead, independently conducting ext
 <script>
  jQuery(window).scroll(function () {
  
- if (jQuery(window).scrollTop() >= 80 && jQuery(window).scrollTop() < 7000)
+ if (jQuery(window).scrollTop() >= 80 && jQuery(window).scrollTop() < 8000)
      jQuery('#sidenav').addClass('fixed');
  else
      jQuery('#sidenav').removeClass('fixed');
