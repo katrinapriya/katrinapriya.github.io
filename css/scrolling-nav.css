@@ -47,6 +47,7 @@
     
 }
 
+
 /* ABOUT PAGE */
 
 #frontTitle
@@ -153,6 +154,16 @@ ul.b {
    font-size: 22px;
 
 }
+
+/*AI PAGE*/
+#aidescription { 
+  text-align: left; /* Aligns text to the left */
+  font-family: 'AvenirNextLTPro', "Nunito Sans";
+  font-size: 18px;
+  max-width: 650px;
+  color: black;
+}
+
 
 
 /*JAVASCRIPT HERE. RESPONSIVE SIDE BAR*/
