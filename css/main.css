@@ -947,3 +947,142 @@ html {
     background: linear-gradient(to right, #139075 var(--scroll), transparent 0);
     z-index: 1000;
 }
+
+/* Mobile Responsiveness Improvements */
+@media screen and (max-width: 768px) {
+  /* Typography adjustments */
+  #deshead {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  #description {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  #subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 15px;
+  }
+
+  /* Container adjustments */
+  .container {
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* Image responsiveness */
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  /* Navigation adjustments */
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-item {
+    padding: 5px 0;
+  }
+
+  /* Blockquote adjustments */
+  blockquote {
+    width: 90%;
+    padding: 20px;
+    margin: 15px auto;
+    font-size: 16px;
+    left: 0;
+  }
+
+  /* Footer adjustments */
+  .footer {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .footerlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* Hide side navigation on mobile */
+  #sidenav {
+    display: none;
+  }
+
+  /* Adjust vertical line padding */
+  .verticalLine {
+    padding-left: 15px;
+    margin-left: 10px;
+  }
+
+  /* Container adjustments */
+  .container1 {
+    flex-direction: column;
+  }
+
+  .column1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Project image hover effects */
+  .project-image {
+    transform: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .project-image:hover {
+    opacity: 0.9;
+  }
+}
+
+/* Additional tablet-specific adjustments */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+
+  #subtitle {
+    padding: 0 20px;
+  }
+
+  blockquote {
+    width: 80%;
+  }
+}
+
+/* Remove lightbox styles */
+.lightbox {
+    display: none;
+}
+
+.lightbox img {
+    display: none;
+}
+
+.lightbox.active {
+    display: none;
+}
+
+/* Make images non-clickable */
+.img-fluid {
+    cursor: default;
+    transition: none;
+}
+
+.img-fluid:hover {
+    opacity: 1;
+}
