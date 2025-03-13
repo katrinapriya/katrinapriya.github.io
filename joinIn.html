@@ -49,12 +49,53 @@
     text-align: left;
       left:6%; 
     }
+
+  /* Lightbox styles */
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+  }
+
+  .lightbox img {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .lightbox.active {
+    display: block;
+  }
+
+  /* Make images clickable */
+  .img-fluid {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+
+  .img-fluid:hover {
+    opacity: 0.9;
+  }
 </style>
 </head>
 
 <!-- BODY -->
 <body id="page-top">
   
+  <!-- Add lightbox div -->
+  <div class="lightbox" id="lightbox"></div>
+
   <!-- NAV BAR -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
     <a class="navbar-brand" href="/">
@@ -360,6 +401,32 @@ Eventually, I can measure the success of this app's design using the following <
 
 <!-- Custom JavaScript for this theme -->
 <script src="js/scrolling-nav.js"></script>
+
+<!-- Add lightbox JavaScript before closing body tag -->
+<script>
+  // Lightbox functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const lightbox = document.getElementById('lightbox');
+    const images = document.querySelectorAll('.img-fluid');
+
+    images.forEach(image => {
+      image.addEventListener('click', e => {
+        lightbox.classList.add('active');
+        const img = document.createElement('img');
+        img.src = image.src;
+        while (lightbox.firstChild) {
+          lightbox.removeChild(lightbox.firstChild);
+        }
+        lightbox.appendChild(img);
+      });
+    });
+
+    lightbox.addEventListener('click', e => {
+      if (e.target !== e.currentTarget) return;
+      lightbox.classList.remove('active');
+    });
+  });
+</script>
 
 </body>
 
