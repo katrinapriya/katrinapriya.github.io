@@ -1,0 +1,878 @@
+/* ==========================================================================
+   TABLE OF CONTENTS:
+   1. FONTS
+   2. BASE STYLES
+   3. LAYOUT & STRUCTURE
+   4. TYPOGRAPHY
+   5. NAVIGATION
+   6. HOME PAGE
+   7. ABOUT PAGE
+   8. AI PAGE
+   9. COMPONENTS
+   10. ANIMATIONS
+   11. UTILITIES
+   12. MEDIA QUERIES
+   ========================================================================== */
+
+/* ==========================================================================
+   1. FONTS
+   ========================================================================== */
+
+   @font-face {
+    font-family: 'AvenirNextLTPro';
+    font-weight: normal;
+    font-style: normal;
+    font-variant:normal;
+    src: url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.eot') format('eot'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.otf')  format('opentype'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.woff') format('woff'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.ttf')  format('truetype'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Regular.svg') format('svg');
+  }
+  @font-face {
+    font-family: 'AvenirNextLTPro Bold';
+    
+    src: url('../fonts/Avenir-Next/AvenirNextLTPro-Demi.eot') format('eot'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Demi.otf')  format('opentype'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Demi.woff') format('woff'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Demi.ttf')  format('truetype'),
+    url('../fonts/Avenir-Next/AvenirNextLTPro-Demi.svg') format('svg');
+  }
+  @font-face {
+      font-family: 'Hatton';
+      font-weight: normal;
+      font-style: normal;
+      font-variant:normal;
+      src: url('../fonts/Hatton-Medium.otf')  format('opentype');
+  }
+  @font-face {
+      font-family: 'Hatton Bold';
+      font-weight: normal;
+      font-style: normal;
+      font-variant:normal;
+      src: url('../fonts/Hatton-Semibold.otf')  format('opentype');
+  }
+  
+  /* ==========================================================================
+     2. BASE STYLES
+     ========================================================================== */
+  
+  body {
+    padding-top: 30px;
+      text-align: center;
+      font-family: 'AvenirNextLTPro', "Nunito Sans";
+      font-weight: 300;
+      font-size: 20px;
+    background-color: white;
+      font-weight: lighter;
+      color:  #000000;
+      margin-bottom: 0px;
+  }
+  
+  a {
+    color: black;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  
+  a:hover {
+    color: #139075;
+    text-decoration: underline;
+  }
+  
+  a:active, a:focus {
+    text-decoration: none;
+  }
+  
+  b {
+    font-family: 'AvenirNextLTPro Bold';
+  }
+  
+  hr {
+    background-color: lightgrey; height: .1px;  
+  }
+  
+  section {
+      padding: 0px 0;
+  }
+  
+  /* ==========================================================================
+     3. LAYOUT & STRUCTURE
+     ========================================================================== */
+  
+  .container {
+    position: relative;
+    -webkit-animation: transitionIn 1.2s;
+  }
+  
+  #content{
+    padding-left: 22%;
+    padding-right: 15%;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* trying 3 columns */
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22%;
+    padding-right: 9%;
+  }
+  
+  .column1 {
+    width: 30%;
+    text-align: left;
+  }
+  
+  .divider1 {
+    height: 1px;
+    background-color: #139075;
+    margin-top: 20px;
+    margin-left: 22%;
+    margin-right: 9%;
+  }
+  
+  .verticalLine {
+    margin-left: 18%;
+    margin-right: 6%;
+    border-left: 4px solid #4B8F8C;
+    padding-left: 4%;
+    border-radius: 4px;
+  }
+  
+  .verticalLine2 {
+    border-left: 4px solid #4B8F8C;
+    padding-left: 4%;
+    border-radius: 4px;
+  }
+  
+  /* ==========================================================================
+     4. TYPOGRAPHY
+     ========================================================================== */
+  
+  #frontTitle {
+    text-align: left;
+    font-family: 'Hatton Bold', "Nunito Sans";
+    font-weight: 500;
+    font-size: 44px;
+    color: black;
+  }
+  
+  #header2 {
+    text-align: left;
+    font-family: 'Hatton Bold', "Nunito Sans";
+    font-weight: 500;
+    font-size: 32px;
+    color: black;
+  }
+  
+  #title {
+    text-align: center;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 75px;
+    color: black;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .03em; /* Adjust as needed */
+    animation: 
+      typing 2.2s steps(30, end),
+      blink-caret 2.3s;
+  }
+  
+  #title2 {
+    text-align: left;
+    font-family: 'Hatton Bold', "Nunito Sans";
+    font-size: 50px;
+    color: black; /*blue*/
+    text-transform: lowercase;
+  }
+  
+  #deshead {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 55px;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 0.9; 
+  }
+  
+  #description {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 24px;
+    color: black;
+  }
+  
+  #designtitle {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 34px;
+    color: black /*blue*/
+  }
+  
+  #designtitle1 {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 24px;
+    color: black /*blue*/
+  }
+  
+  #designtake {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 30px;
+    color: black /*blue*/
+  }
+  
+  #heading {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 40px;
+    color: black /*blue*/
+  }
+  
+  #greenheader {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #139075 /*blue*/
+  }
+  
+  #caption {
+    text-align: center;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 16px;
+    color: #686868; /*grey*/
+    margin-right: 8%;
+    margin-left: 22%;
+  }
+  
+  #subtitle {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 18px;
+    color: black;
+  }
+  
+  #subtitle2 {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-weight: 200;
+    font-size: 20px;
+    color: blue;
+  }
+  
+  #dessub {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 28px;
+    color: black /*blue*/
+  }
+  
+  #infoheader {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 20px;
+    color: black /*blue*/
+  }
+  
+  #infodescription {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 18px;
+    color: black /*blue*/
+  }
+  
+  .header1 {
+    color: #139075;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .body-text {
+    color: black;
+    font-size: 0.8em;
+    text-transform: none;
+  }
+  
+  .blue {
+    color: #139075;
+    font-weight: 500;
+  }
+  
+  .green {
+    color: #139075;
+    font-weight: 500;
+  }
+  
+  .bol {
+    font-weight: 500;
+  }
+  
+  .bol2 {
+    font-weight: 500;
+  }
+  
+  /* ==========================================================================
+     5. NAVIGATION
+     ========================================================================== */
+  
+  .navbar {
+    background-color: #C0C0C0;
+    border: none !important;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  
+  div.navbar-default > div.container {
+    background-color: #C0C0C0;
+  }
+  
+  ul.nav a:link {
+    color: black !important;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+  }
+  
+  ul.nav a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  ul.nav a:hover {
+    color: black !important; /*blue*/
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  ul.nav a:active {
+    color: black !important;
+    background-color: transparent;
+    text-decoration: bold;
+    font-weight: bold;
+    font-family: 'AvenirNextLTPro Bold';
+  }
+  
+  /* Sidebar Navigation */
+  #sidenav {
+    display: none;
+    width: 12%;
+    height: auto;
+    left: 16px;
+    text-align: left;
+    color: transparent;
+  }
+  
+  #sidenav.fixed {
+    width: 12%;
+    display: inline-block;
+    height: auto;
+    left: 16px;
+    animation: expand 1s ease forwards;
+    text-align: left;
+    position: fixed;
+    bottom: 65px;
+  }
+  
+  #sidenav a:hover {
+    color: #139075;
+  }
+  
+  #sidenav li.active > a {
+    color: #139075;
+    font-family: 'AvenirNextLTPro Bold';
+  }
+  
+  /* ==========================================================================
+     6. HOME PAGE
+     ========================================================================== */
+  
+  #homep {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 22px;
+    max-width: 650px;
+    color: black;
+  }
+  
+  /* ==========================================================================
+     7. ABOUT PAGE
+     ========================================================================== */
+  
+  #about {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 17px;
+    color: black;
+  }
+  
+  #aboutheader {
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 30px;
+  }
+  
+  #me {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .info {
+    width: 50%;
+    min-width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* ==========================================================================
+     8. AI PAGE
+     ========================================================================== */
+  
+  #aidescription { 
+    text-align: left; /* Aligns text to the left */
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 18px;
+    max-width: 650px;
+    color: black;
+  }
+  
+  /* ==========================================================================
+     9. COMPONENTS
+     ========================================================================== */
+  
+  /* Lists */
+  ul.a {
+    text-align: left;
+    padding-left: 18%;
+    padding-right: 12%;
+    font-size: 18px;
+  }
+  
+  ul span {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  ul.b {
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 9%;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  li span {
+    position: relative;
+    left: 30px;
+  }
+  
+  /* Numbered Lists */
+  .nums {
+    counter-reset: my-awesome-counter;
+    clear: both;
+    list-style: none;
+    text-align: left;
+    padding-left: 19%;
+    padding-right: 8%;
+    text-align: left;
+    font-size: 18px;
+    list-style-position: outside;
+  }
+  
+  .nums li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+  }
+  
+  .nums li::before {
+    content: counter(my-awesome-counter);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 38px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: 42px;
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: black;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .nums2 {
+    counter-reset: my-awesome-counter;
+    clear: both;
+    list-style: none;
+    text-align: left;
+    padding-left: 27%;
+    padding-right: 8%;
+    text-align: left;
+    font-size: 18px;
+    list-style-position: outside;
+  }
+  
+  .nums2 li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+  }
+  
+  .nums2 li::before {
+    content: counter(my-awesome-counter);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 38px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: 42px;
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: black;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  /* Alert Boxes */
+  #alert-box {
+    margin-left: 22%;
+    margin-right: 9%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    background-color: #f0fdf4; /* Light green background */
+    border-radius: 4px;
+  }
+  
+  .alert-box {
+    margin-left: 22%;
+    margin-right: 9%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    background-color: #f0fdf4; /* Light green background */
+    border-radius: 10px;
+  }
+  
+  /* Buttons */
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: black;
+    border: black!important;/*blue*/
+    color: white\ !important;
+    border-radius: 25%;
+    size: 50px;
+  }
+  
+  .btn-xl {
+    padding: 40px 40px;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 16px;
+    font-weight: lighter;
+    color: black;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footerlink a, a.footerlink {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #686868;
+    text-align: center;
+  }
+  
+  .footerlink:hover {
+    color: #15A083;
+  }
+  
+  /* Icons */
+  .fa {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 50px !important;
+    width: 50px !important; 
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+  }
+  
+  .fa:hover {
+    text-decoration: none;
+  }
+  
+  .icons {
+    text-align: center !important;
+  }
+  
+  /* Paragraphs */
+  p.a {
+    padding-left: 11%;
+    padding-right: 9%;
+  }
+  
+  p.b {
+    font-size: 17px;
+  }
+  
+  p.e {
+    padding-left: 15%;
+    padding-right: 8%;
+  }
+  
+  p.ee {
+    padding-left: 22%;
+    padding-right: 8%;
+  }
+  
+  p.wideImage {
+    padding-left: 18%;
+  }
+  
+  p.z {
+    padding-left: 12%;
+    padding-right: 11%;
+  }
+  
+  /* Modals */
+  .modal-title {
+    color: black; /*blue*/
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 28px;
+    text-align: left;
+  }
+  
+  .modaltext {
+    color: black !important;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  #myImg:hover {
+    opacity: .5;
+  }
+  
+  #jobTitle {
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 25px;
+  }
+  
+  #date {
+    color: black !important;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 18px;
+  }
+  
+  /* Project-related */
+  #projectsubtext {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 24px;
+    color: black;
+  }
+  
+  #more {
+    text-align: left;
+    font-family: 'AvenirNextLTPro', "Nunito Sans";
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    font-weight: 300;
+  }
+  
+  /* Thumbnail Gallery */
+  .thumb {
+    margin-bottom: 30px;
+  }
+  
+  .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+  }
+  
+  .hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  
+  .hovereffect:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(0.6);
+    -webkit-filter: brightness(0.6);
+  }
+  
+  .hovereffect a, hovereffect p {
+    color: #FFF;
+    padding: 1em 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+  }
+  
+  .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  /* ==========================================================================
+     10. ANIMATIONS
+     ========================================================================== */
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #191C5F; }
+  }
+  
+  /*have side bar slide in from left*/
+  @keyframes expand {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  } 
+  
+  @-webkit-keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: rotateX(-10);
+    }
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  
+  /* ==========================================================================
+     11. UTILITIES
+     ========================================================================== */
+  
+  .narrow {
+    padding-left: 14%;
+    padding-right: 0%;
+  }
+  
+  .close {
+    font-size: 29px; 
+  }
+  
+  .imgg {
+    position: relative;
+    -webkit-animation: transitionIn 1s;
+  }
+  
+  /* ==========================================================================
+     12. MEDIA QUERIES
+     ========================================================================== */
+  
+  @media (min-width: 992px) {
+    header {
+      padding: 156px 0 100px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    #sidenav {
+      display: none;
+      width: 12%;
+      height: auto;
+      left: 16px;
+      text-align: left;
+      color: transparent;
+    }
+  }
+  
+  @media (max-width: 600px) { 
+    #sidenav {
+      display: none;
+    }
+    
+    .column {
+      width: 100%;
+      padding-left: 4em;
+    }
+  }
