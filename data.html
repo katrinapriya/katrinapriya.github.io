@@ -13,6 +13,17 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+<script>
+  function checkPassword() {
+      const password = prompt("This is a protected page. Enter password:");
+      if (password === "ux25") {
+          document.getElementById("protected-content").style.display = "block";
+      } else {
+          alert("Incorrect password. Please reach out to Katrina for access.");
+          window.location.href = "index.html"; // Redirect to your homepage or another page
+      }
+  }  
+</script> 
 
 <!-- GOOGLE ANALYTICS 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115201495-1"></script>
@@ -55,9 +66,8 @@
 </head>
 
 
-<!-- BODY -->
-<body id="page-top">
-  
+  <!-- BODY -->
+<body id="page-top" onload="checkPassword()">
   <!-- NAV BAR -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
     <a class="navbar-brand" href="/">
@@ -97,6 +107,8 @@
 <section id= "projects">
 <img class="img-fluid" src="img/data/data.jpg">
 <div class = "container">
+
+
 
 <!-- SIDENAV -->
 <div id = "sidenav">
@@ -153,7 +165,9 @@
   <br></p><br>
 </section>
 
-
+  <!-- PASSWORD -->
+  <body onload="checkPassword()">
+    <div id="protected-content" style="display:none;">
 
 <!-- DEFINE-->
 <section id = "define"> <br>
